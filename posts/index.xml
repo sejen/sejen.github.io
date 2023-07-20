@@ -1,18 +1,574 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Jiang Jun Jie's Site</title><link>https://www.jiangjunjie.cn/posts/</link><description>Recent content in Posts on Jiang Jun Jie's Site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 30 May 2023 16:01:44 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker Aliyun Webdav</title><link>https://www.jiangjunjie.cn/2023/05/docker-aliyun-webdav/</link><pubDate>Tue, 30 May 2023 16:01:44 +0800</pubDate><guid>https://www.jiangjunjie.cn/2023/05/docker-aliyun-webdav/</guid><description>version: &amp;#39;3.3&amp;#39; services: aliyundrive-webdav: container_name: aliyundrive-webdav restart: unless-stopped ports: - &amp;#39;6666:8080&amp;#39; environment: - &amp;#39;REFRESH_TOKEN=&amp;#39; image: messense/aliyundrive-webdav https://github.com/messense/aliyundrive-webdav</description></item><item><title>Docker Yapi</title><link>https://www.jiangjunjie.cn/2023/05/docker-yapi/</link><pubDate>Wed, 24 May 2023 10:03:15 +0800</pubDate><guid>https://www.jiangjunjie.cn/2023/05/docker-yapi/</guid><description>version: &amp;#39;3&amp;#39; services: yapi-web: image: jayfong/yapi:latest container_name: yapi-web ports: - 40001:3000 environment: - YAPI_ADMIN_ACCOUNT=%email% - YAPI_ADMIN_PASSWORD=%password% - YAPI_CLOSE_REGISTER=true - YAPI_DB_SERVERNAME=yapi-mongo - YAPI_DB_PORT=27017 - YAPI_DB_DATABASE=yapi - YAPI_MAIL_ENABLE=false - YAPI_LDAP_LOGIN_ENABLE=false - YAPI_PLUGINS=[] depends_on: - yapi-mongo links: - yapi-mongo restart: unless-stopped yapi-mongo: image: mongo:latest container_name: yapi-mongo volumes: - ./data/db:/data/db expose: - 27017 restart: unless-stopped</description></item><item><title>Docker FFmpeg</title><link>https://www.jiangjunjie.cn/2023/05/docker-ffmpeg/</link><pubDate>Thu, 11 May 2023 14:32:27 +0800</pubDate><guid>https://www.jiangjunjie.cn/2023/05/docker-ffmpeg/</guid><description>Dockerfile FROM ubuntu:22.04 RUN apt-get update &amp;amp;&amp;amp; apt-get install -y ca-certificates RUN mv /etc/apt/sources.list /etc/apt/sources.list.bak RUN echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy main restricted universe multiverse&amp;#34; &amp;gt;&amp;gt; /etc/apt/sources.list RUN echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse&amp;#34; &amp;gt;&amp;gt; /etc/apt/sources.list RUN echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse&amp;#34; &amp;gt;&amp;gt; /etc/apt/sources.list RUN echo &amp;#34;deb http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse&amp;#34; &amp;gt;&amp;gt; /etc/apt/sources.list RUN apt-get update &amp;amp;&amp;amp; apt-get install -y wget java-common RUN wget https://corretto.</description></item><item><title>Redisinsight</title><link>https://www.jiangjunjie.cn/2023/04/redisinsight/</link><pubDate>Tue, 25 Apr 2023 14:04:47 +0800</pubDate><guid>https://www.jiangjunjie.cn/2023/04/redisinsight/</guid><description>version: &amp;#39;3.4&amp;#39; services: redisinsight: image: redislabs/redisinsight:latest container_name: redis-insight environment: - TZ=Asia/Shanghai ports: - &amp;#34;8001:8001&amp;#34; volumes: - redisinsight-data:/db restart: always network_mode: bridge volumes: redisinsight-data: external: false</description></item><item><title>Penpot</title><link>https://www.jiangjunjie.cn/2023/04/penpot/</link><pubDate>Tue, 25 Apr 2023 11:15:11 +0800</pubDate><guid>https://www.jiangjunjie.cn/2023/04/penpot/</guid><description>start https://help.penpot.app/technical-guide/getting-started/#start-penpot
-wget https://raw.githubusercontent.com/penpot/penpot/main/docker/images/docker-compose.yaml</description></item><item><title>Jenkins</title><link>https://www.jiangjunjie.cn/2023/04/jenkins/</link><pubDate>Tue, 25 Apr 2023 11:14:09 +0800</pubDate><guid>https://www.jiangjunjie.cn/2023/04/jenkins/</guid><description>docker-compose.yml version: &amp;#39;3.3&amp;#39; services: jenkins: image: jenkins/jenkins:lts restart: unless-stopped privileged: true ports: - 8081:8080 container_name: jenkins volumes: - jenkins_data:/var/jenkins_home - /var/run/docker.sock:/var/run/docker.sock - /usr/local/bin/docker:/usr/local/bin/docker volumes: jenkins_data: external: false</description></item><item><title>Hik H5player</title><link>https://www.jiangjunjie.cn/2023/04/hik-h5player/</link><pubDate>Thu, 13 Apr 2023 15:08:50 +0800</pubDate><guid>https://www.jiangjunjie.cn/2023/04/hik-h5player/</guid><description>vue 项目中使用hik h5player 下载海康h5player安装包 public 文件夹下新建hik_video文件夹，将安装包中的bin文件夹复制到hik_video文</description></item><item><title>Openwrt</title><link>https://www.jiangjunjie.cn/2023/04/openwrt/</link><pubDate>Mon, 10 Apr 2023 11:01:57 +0800</pubDate><guid>https://www.jiangjunjie.cn/2023/04/openwrt/</guid><description>openclash 旁路由状态下，外网端口映射问题 启用旁路由模式 启用fake-ip tun-混合模式（udp-tun,tcp转发） 黑白名单-绕过核心的来源端口9</description></item><item><title>Glacnes</title><link>https://www.jiangjunjie.cn/2023/03/glacnes/</link><pubDate>Fri, 24 Mar 2023 09:53:26 +0800</pubDate><guid>https://www.jiangjunjie.cn/2023/03/glacnes/</guid><description>install as docker container #host docker run -d --name=glances --restart=&amp;#34;always&amp;#34; --network=host -e GLANCES_OPT=&amp;#34;-w&amp;#34; -v /var/run/docker.sock:/var/run/docker.sock:ro --pid host nicolargo/glances:latest-full #bridge docker run -d --name=glances --restart=&amp;#34;always&amp;#34; -p 61208-61209:61208-61209 -e GLANCES_OPT=&amp;#34;-w&amp;#34; -v /var/run/docker.sock:/var/run/docker.sock:ro --pid host nicolargo/glances:latest-full</description></item><item><title>Hddtemp</title><link>https://www.jiangjunjie.cn/2023/03/hddtemp/</link><pubDate>Fri, 24 Mar 2023 09:49:01 +0800</pubDate><guid>https://www.jiangjunjie.cn/2023/03/hddtemp/</guid><description>install yum install hddtemp apt install hddtemp # start service at 7634 systemctl enable hddtemp systemctl start hddtemp #config file vi /etc/default/hddtemp #1. uncomment DISKS and set vaule /dev/sd[bcd] #2. set RUN_DAEMON=&amp;#34;true&amp;#34; yum install netcat apt install netcat # test nc localhost 7634</description></item><item><title>Html</title><link>https://www.jiangjunjie.cn/2023/03/html/</link><pubDate>Wed, 22 Mar 2023 14:14:33 +0800</pubDate><guid>https://www.jiangjunjie.cn/2023/03/html/</guid><description>The HTTP request is not acceptable for the requested resource 页面header添加 &amp;lt;meta name=&amp;#34;referrer&amp;#34; content=&amp;#34;no-referrer&amp;#34; /&amp;gt;</description></item><item><title>Rpc_shutdown</title><link>https://www.jiangjunjie.cn/2023/02/rpc_shutdown/</link><pubDate>Fri, 03 Feb 2023 11:11:27 +0800</pubDate><guid>https://www.jiangjunjie.cn/2023/02/rpc_shutdown/</guid><description>windows 启用远程关机 服务中RemoteRegistry改成自动 in Regedit HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Policies/System create DWORD LocalAccountTokenFilterPolicy, give it the value 1</description></item><item><title>Hikvision</title><link>https://www.jiangjunjie.cn/2023/02/hikvision/</link><pubDate>Fri, 03 Feb 2023 11:00:55 +0800</pubDate><guid>https://www.jiangjunjie.cn/2023/02/hikvision/</guid><description>快照Snapshot http://username:password@ip:port[80]/ISAPI/Streaming/channels/101/picture http://username:password@ip:port[80]/ISAPI/ContentMgmt/StreamingProxy/channels/101/picture RTSP rtsp://username:password@ip:port[554]/ISAPI/Streaming/Channels/101 ISSUE NVR POE设备，无法直连摄像机 开启网络-高级配置-其他-启用虚拟主机 摄像机可以通过http://nvr_ip:6</description></item><item><title>Docker ELK</title><link>https://www.jiangjunjie.cn/2022/09/docker-elk/</link><pubDate>Thu, 08 Sep 2022 11:02:46 +0800</pubDate><guid>https://www.jiangjunjie.cn/2022/09/docker-elk/</guid><description>docker compose files https://github.com/deviantony/docker-elk</description></item><item><title>Docker GeoServer</title><link>https://www.jiangjunjie.cn/2022/09/docker-geoserver/</link><pubDate>Thu, 08 Sep 2022 10:54:53 +0800</pubDate><guid>https://www.jiangjunjie.cn/2022/09/docker-geoserver/</guid><description>version: &amp;#39;3.1&amp;#39; services: geoserver: image: geonode/geoserver:2.18.2 container_name: geoserver volumes: - /opt/geoserver/data:/geoserver_data/data ports: - 18080:8080 restart: always</description></item><item><title>Docker OSM</title><link>https://www.jiangjunjie.cn/2022/09/docker-osm/</link><pubDate>Thu, 08 Sep 2022 10:53:13 +0800</pubDate><guid>https://www.jiangjunjie.cn/2022/09/docker-osm/</guid><description>version: &amp;#39;3.2&amp;#39; services: osm: image: overv/openstreetmap-tile-server:latest container_name: osm volumes: - openstreetmap-data:/var/lib/postgresql/12/main # environment: # - ALLOW_CORS=enabled ports: - 28080:80 restart: always command: &amp;#34;run&amp;#34; networks: - proxy volumes: openstreetmap-data: external: true networks: proxy: external: true</description></item><item><title>Docker Oracle11gR2</title><link>https://www.jiangjunjie.cn/2022/09/docker-oracle11gr2/</link><pubDate>Thu, 08 Sep 2022 10:33:04 +0800</pubDate><guid>https://www.jiangjunjie.cn/2022/09/docker-oracle11gr2/</guid><description>version: &amp;#39;3.1&amp;#39; services: oracle-xe: image: gvenzl/oracle-xe:11 container_name: oracle-xe restart: always user: 1000:1000 environment: - ORACLE_PASSWORD={password} volumes: - ./data:/u01/app/oracle/oradata ports: - 1521:1521 network_mode: bridge version: &amp;#39;3.1&amp;#39; services: oracle11g: image: registry.cn-hangzhou.aliyuncs.com/helowin/oracle_11g container_name: oracle11g privileged: true ports: - 1521:1521 restart: always volumes: - /home/oracle/oradata:/home/oracle/app/oracle/oradata network_mode: bridge root的默认密码为helowin oracle默认密码</description></item><item><title>Docker Keycloak</title><link>https://www.jiangjunjie.cn/2022/09/docker-keycloak/</link><pubDate>Thu, 08 Sep 2022 10:13:00 +0800</pubDate><guid>https://www.jiangjunjie.cn/2022/09/docker-keycloak/</guid><description>version: &amp;#39;3&amp;#39; volumes: postgres_data: driver: local services: postgres: image: postgres volumes: - postgres_data:/var/lib/postgresql/data environment: POSTGRES_DB: keycloak POSTGRES_USER: keycloak POSTGRES_PASSWORD: {db password} keycloak: image: quay.io/keycloak/keycloak:legacy environment: DB_VENDOR: POSTGRES DB_ADDR: postgres DB_DATABASE: keycloak DB_USER: keycloak DB_SCHEMA: public DB_PASSWORD: {db password} KEYCLOAK_USER: admin KEYCLOAK_PASSWORD: {password} # Uncomment the line below if you want to specify JDBC parameters. The parameter below is just an example, and it shouldn&amp;#39;t be used in production without knowledge. It is highly recommended that you read the PostgreSQL JDBC driver documentation in order to use it.</description></item><item><title>Nginx Issue</title><link>https://www.jiangjunjie.cn/2022/09/nginx-issue/</link><pubDate>Thu, 08 Sep 2022 09:29:55 +0800</pubDate><guid>https://www.jiangjunjie.cn/2022/09/nginx-issue/</guid><description>Nginx Issue nginx处理redirect location端口丢失的问题 反向代理 proxy_set_header Host $http_host; # 这里 proxy_set_header X-Real-IP $remote_addr; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; 访问目录没带/ if (-d $request_filename) { rewrite [^/]$ $scheme://$http_host$uri/ permanent; } 跨域访</description></item><item><title>Hik Camera</title><link>https://www.jiangjunjie.cn/2022/09/hik-camera/</link><pubDate>Tue, 06 Sep 2022 16:36:25 +0800</pubDate><guid>https://www.jiangjunjie.cn/2022/09/hik-camera/</guid><description>Hikvision Camera RTSP new version Real rtsp://username:password@&amp;lt;address&amp;gt;:&amp;lt;port&amp;gt;/Streaming/</description></item><item><title>Poi Tl</title><link>https://www.jiangjunjie.cn/2022/09/poi-tl/</link><pubDate>Tue, 06 Sep 2022 10:51:40 +0800</pubDate><guid>https://www.jiangjunjie.cn/2022/09/poi-tl/</guid><description>ms word template engine for java https://github.com/Sayi/poi-tl</description></item><item><title>Oracle</title><link>https://www.jiangjunjie.cn/2022/09/oracle/</link><pubDate>Tue, 06 Sep 2022 10:49:26 +0800</pubDate><guid>https://www.jiangjunjie.cn/2022/09/oracle/</guid><description>ORA-12505, TNS:listener does not currently know of SID given in connect descriptor select INSTANCE_NAME from v$instance; 归档和备份 su - oracle sqlplus /nolog sqlplus user/password [as sysdba] select * from v$flash_recovery_area_usage; select * from v$recovery_file_dest; select space_limit/1024/1024/1024, space_used/1024/1024/1024, space_reclaimable,number_of_files from v$recovery_file_dest; rman target / # archive # 确认归档模式的状态 ARCHIVE LOG LIST; DELETE ARCHIVELOG ALL; # 关闭自动</description></item><item><title>Hugo</title><link>https://www.jiangjunjie.cn/2022/09/hugo/</link><pubDate>Tue, 06 Sep 2022 10:43:48 +0800</pubDate><guid>https://www.jiangjunjie.cn/2022/09/hugo/</guid><description>Update Theme
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Jiang Jun Jie&#39;s Site</title>
+    <link>https://www.jiangjunjie.cn/posts/</link>
+    <description>Recent content in Posts on Jiang Jun Jie&#39;s Site</description>
+    <image>
+      <title>Jiang Jun Jie&#39;s Site</title>
+      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
+      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 May 2023 16:01:44 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Aliyun Webdav</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-aliyun-webdav/</link>
+      <pubDate>Tue, 30 May 2023 16:01:44 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-aliyun-webdav/</guid>
+      <description>version: &amp;#39;3.3&amp;#39; services: aliyundrive-webdav: container_name: aliyundrive-webdav restart: unless-stopped ports: - &amp;#39;6666:8080&amp;#39; environment: - &amp;#39;REFRESH_TOKEN=&amp;#39; image: messense/aliyundrive-webdav https://github.com/messense/aliyundrive-webdav</description>
+    </item>
+    
+    <item>
+      <title>Docker Yapi</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-yapi/</link>
+      <pubDate>Wed, 24 May 2023 10:03:15 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-yapi/</guid>
+      <description>version: &amp;#39;3&amp;#39; services: yapi-web: image: jayfong/yapi:latest container_name: yapi-web ports: - 40001:3000 environment: - YAPI_ADMIN_ACCOUNT=%email% - YAPI_ADMIN_PASSWORD=%password% - YAPI_CLOSE_REGISTER=true - YAPI_DB_SERVERNAME=yapi-mongo - YAPI_DB_PORT=27017 - YAPI_DB_DATABASE=yapi - YAPI_MAIL_ENABLE=false - YAPI_LDAP_LOGIN_ENABLE=false - YAPI_PLUGINS=[] depends_on: - yapi-mongo links: - yapi-mongo restart: unless-stopped yapi-mongo: image: mongo:latest container_name: yapi-mongo volumes: - ./data/db:/data/db expose: - 27017 restart: unless-stopped </description>
+    </item>
+    
+    <item>
+      <title>Docker FFmpeg</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-ffmpeg/</link>
+      <pubDate>Thu, 11 May 2023 14:32:27 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-ffmpeg/</guid>
+      <description>Dockerfile FROM ubuntu:22.04 RUN apt-get update &amp;amp;&amp;amp; apt-get install -y ca-certificates RUN mv /etc/apt/sources.list /etc/apt/sources.list.bak RUN echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy main restricted universe multiverse&amp;#34; &amp;gt;&amp;gt; /etc/apt/sources.list RUN echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse&amp;#34; &amp;gt;&amp;gt; /etc/apt/sources.list RUN echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse&amp;#34; &amp;gt;&amp;gt; /etc/apt/sources.list RUN echo &amp;#34;deb http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse&amp;#34; &amp;gt;&amp;gt; /etc/apt/sources.list RUN apt-get update &amp;amp;&amp;amp; apt-get install -y wget java-common RUN wget https://corretto.</description>
+    </item>
+    
+    <item>
+      <title>Redisinsight</title>
+      <link>https://www.jiangjunjie.cn/posts/redisinsight/</link>
+      <pubDate>Tue, 25 Apr 2023 14:04:47 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/redisinsight/</guid>
+      <description>version: &amp;#39;3.4&amp;#39; services: redisinsight: image: redislabs/redisinsight:latest container_name: redis-insight environment: - TZ=Asia/Shanghai ports: - &amp;#34;8001:8001&amp;#34; volumes: - redisinsight-data:/db restart: always network_mode: bridge volumes: redisinsight-data: external: false </description>
+    </item>
+    
+    <item>
+      <title>Penpot</title>
+      <link>https://www.jiangjunjie.cn/posts/penpot/</link>
+      <pubDate>Tue, 25 Apr 2023 11:15:11 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/penpot/</guid>
+      <description>start https://help.penpot.app/technical-guide/getting-started/#start-penpot
+wget https://raw.githubusercontent.com/penpot/penpot/main/docker/images/docker-compose.yaml </description>
+    </item>
+    
+    <item>
+      <title>Jenkins</title>
+      <link>https://www.jiangjunjie.cn/posts/jenkins/</link>
+      <pubDate>Tue, 25 Apr 2023 11:14:09 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/jenkins/</guid>
+      <description>docker-compose.yml version: &amp;#39;3.3&amp;#39; services: jenkins: image: jenkins/jenkins:lts restart: unless-stopped privileged: true ports: - 8081:8080 container_name: jenkins volumes: - jenkins_data:/var/jenkins_home - /var/run/docker.sock:/var/run/docker.sock - /usr/local/bin/docker:/usr/local/bin/docker volumes: jenkins_data: external: false </description>
+    </item>
+    
+    <item>
+      <title>Hik H5player</title>
+      <link>https://www.jiangjunjie.cn/posts/hik-h5player/</link>
+      <pubDate>Thu, 13 Apr 2023 15:08:50 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/hik-h5player/</guid>
+      <description>vue 项目中使用hik h5player 下载海康h5player安装包 public 文件夹下新建hik_video文件夹，将安装包中的bin文件夹复制到hik_video文件夹下 public 文件夹下index.html。添加如下代码 &amp;lt;script type=&amp;#34;text/javascript&amp;#34; src=&amp;#34;&amp;lt;%= BASE_URL %&amp;gt;hik_video/h5player.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; src\assets 文件夹下新建hik_video文件夹，将安装包中的bin文件夹复制到hik_video文件夹下 src\components 文件夹下新建HikH5Player文件夹，创建index.vue文件 &amp;lt;template&amp;gt; &amp;lt;div id=&amp;#34;player&amp;#34; style=&amp;#34;width: 800px;height: 600px;&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script&amp;gt; import &amp;#39;@/assets/hik_video/h5player.min.js&amp;#39; import {getPreviewUrl, getPlaybackUrl} from &amp;#39;@/api/data/camera&amp;#39; export default { name: &amp;#39;hik-h5player&amp;#39;, data(){ return { //播放器对象 player: null, splitNum: 1, mode: 1, } }, mounted() { this.createPlayer() this.init() }, methods: { init() { // 设置播放容器的宽高并监听窗口大小变化 window.addEventListener(&amp;#39;resize&amp;#39;, () =&amp;gt; { this.player.JS_Resize() }) }, /** * 初始化播放器 */ createPlayer() { this.</description>
+    </item>
+    
+    <item>
+      <title>Openwrt</title>
+      <link>https://www.jiangjunjie.cn/posts/openwrt/</link>
+      <pubDate>Mon, 10 Apr 2023 11:01:57 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/openwrt/</guid>
+      <description>openclash 旁路由状态下，外网端口映射问题 启用旁路由模式 启用fake-ip tun-混合模式（udp-tun,tcp转发） 黑白名单-绕过核心的来源端口9443 </description>
+    </item>
+    
+    <item>
+      <title>Glacnes</title>
+      <link>https://www.jiangjunjie.cn/posts/glacnes/</link>
+      <pubDate>Fri, 24 Mar 2023 09:53:26 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/glacnes/</guid>
+      <description>install as docker container #host docker run -d --name=glances --restart=&amp;#34;always&amp;#34; --network=host -e GLANCES_OPT=&amp;#34;-w&amp;#34; -v /var/run/docker.sock:/var/run/docker.sock:ro --pid host nicolargo/glances:latest-full #bridge docker run -d --name=glances --restart=&amp;#34;always&amp;#34; -p 61208-61209:61208-61209 -e GLANCES_OPT=&amp;#34;-w&amp;#34; -v /var/run/docker.sock:/var/run/docker.sock:ro --pid host nicolargo/glances:latest-full </description>
+    </item>
+    
+    <item>
+      <title>Hddtemp</title>
+      <link>https://www.jiangjunjie.cn/posts/hddtemp/</link>
+      <pubDate>Fri, 24 Mar 2023 09:49:01 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/hddtemp/</guid>
+      <description>install yum install hddtemp apt install hddtemp # start service at 7634 systemctl enable hddtemp systemctl start hddtemp #config file vi /etc/default/hddtemp #1. uncomment DISKS and set vaule /dev/sd[bcd] #2. set RUN_DAEMON=&amp;#34;true&amp;#34; yum install netcat apt install netcat # test nc localhost 7634 </description>
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>https://www.jiangjunjie.cn/posts/html/</link>
+      <pubDate>Wed, 22 Mar 2023 14:14:33 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/html/</guid>
+      <description>The HTTP request is not acceptable for the requested resource 页面header添加
+&amp;lt;meta name=&amp;#34;referrer&amp;#34; content=&amp;#34;no-referrer&amp;#34; /&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Rpc_shutdown</title>
+      <link>https://www.jiangjunjie.cn/posts/rpc_shutdown/</link>
+      <pubDate>Fri, 03 Feb 2023 11:11:27 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/rpc_shutdown/</guid>
+      <description>windows 启用远程关机 服务中RemoteRegistry改成自动
+in Regedit
+HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Policies/System
+create DWORD LocalAccountTokenFilterPolicy, give it the value 1</description>
+    </item>
+    
+    <item>
+      <title>Hikvision</title>
+      <link>https://www.jiangjunjie.cn/posts/hikvision/</link>
+      <pubDate>Fri, 03 Feb 2023 11:00:55 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/hikvision/</guid>
+      <description>快照Snapshot http://username:password@ip:port[80]/ISAPI/Streaming/channels/101/picture http://username:password@ip:port[80]/ISAPI/ContentMgmt/StreamingProxy/channels/101/picture
+RTSP rtsp://username:password@ip:port[554]/ISAPI/Streaming/Channels/101
+ISSUE NVR POE设备，无法直连摄像机 开启网络-高级配置-其他-启用虚拟主机
+摄像机可以通过http://nvr_ip:6500[通道号] 来访问摄像机页面 </description>
+    </item>
+    
+    <item>
+      <title>Docker ELK</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-elk/</link>
+      <pubDate>Thu, 08 Sep 2022 11:02:46 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-elk/</guid>
+      <description>docker compose files https://github.com/deviantony/docker-elk</description>
+    </item>
+    
+    <item>
+      <title>Docker GeoServer</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-geoserver/</link>
+      <pubDate>Thu, 08 Sep 2022 10:54:53 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-geoserver/</guid>
+      <description>version: &amp;#39;3.1&amp;#39; services: geoserver: image: geonode/geoserver:2.18.2 container_name: geoserver volumes: - /opt/geoserver/data:/geoserver_data/data ports: - 18080:8080 restart: always </description>
+    </item>
+    
+    <item>
+      <title>Docker OSM</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-osm/</link>
+      <pubDate>Thu, 08 Sep 2022 10:53:13 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-osm/</guid>
+      <description>version: &amp;#39;3.2&amp;#39; services: osm: image: overv/openstreetmap-tile-server:latest container_name: osm volumes: - openstreetmap-data:/var/lib/postgresql/12/main # environment: # - ALLOW_CORS=enabled ports: - 28080:80 restart: always command: &amp;#34;run&amp;#34; networks: - proxy volumes: openstreetmap-data: external: true networks: proxy: external: true </description>
+    </item>
+    
+    <item>
+      <title>Docker Oracle11gR2</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-oracle11gr2/</link>
+      <pubDate>Thu, 08 Sep 2022 10:33:04 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-oracle11gr2/</guid>
+      <description>version: &amp;#39;3.1&amp;#39; services: oracle-xe: image: gvenzl/oracle-xe:11 container_name: oracle-xe restart: always user: 1000:1000 environment: - ORACLE_PASSWORD={password} volumes: - ./data:/u01/app/oracle/oradata ports: - 1521:1521 network_mode: bridge version: &amp;#39;3.1&amp;#39; services: oracle11g: image: registry.cn-hangzhou.aliyuncs.com/helowin/oracle_11g container_name: oracle11g privileged: true ports: - 1521:1521 restart: always volumes: - /home/oracle/oradata:/home/oracle/app/oracle/oradata network_mode: bridge root的默认密码为helowin oracle默认密码为oracle </description>
+    </item>
+    
+    <item>
+      <title>Docker Keycloak</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-keycloak/</link>
+      <pubDate>Thu, 08 Sep 2022 10:13:00 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-keycloak/</guid>
+      <description>version: &amp;#39;3&amp;#39; volumes: postgres_data: driver: local services: postgres: image: postgres volumes: - postgres_data:/var/lib/postgresql/data environment: POSTGRES_DB: keycloak POSTGRES_USER: keycloak POSTGRES_PASSWORD: {db password} keycloak: image: quay.io/keycloak/keycloak:legacy environment: DB_VENDOR: POSTGRES DB_ADDR: postgres DB_DATABASE: keycloak DB_USER: keycloak DB_SCHEMA: public DB_PASSWORD: {db password} KEYCLOAK_USER: admin KEYCLOAK_PASSWORD: {password} # Uncomment the line below if you want to specify JDBC parameters. The parameter below is just an example, and it shouldn&amp;#39;t be used in production without knowledge. It is highly recommended that you read the PostgreSQL JDBC driver documentation in order to use it.</description>
+    </item>
+    
+    <item>
+      <title>Nginx Issue</title>
+      <link>https://www.jiangjunjie.cn/posts/nginx-issue/</link>
+      <pubDate>Thu, 08 Sep 2022 09:29:55 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/nginx-issue/</guid>
+      <description>Nginx Issue nginx处理redirect location端口丢失的问题 反向代理 proxy_set_header Host $http_host; # 这里 proxy_set_header X-Real-IP $remote_addr; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; 访问目录没带/ if (-d $request_filename) { rewrite [^/]$ $scheme://$http_host$uri/ permanent; } 跨域访问CORS add_header &amp;#39;Access-Control-Allow-Origin&amp;#39; &amp;#39;*&amp;#39;; add_header &amp;#39;Access-Control-Allow-Methods&amp;#39; &amp;#39;GET, POST, PUT, DELETE, OPTIONS&amp;#39;; add_header &amp;#39;Access-Control-Allow-Headers&amp;#39; &amp;#39;DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type&amp;#39;; add_header &amp;#39;Access-Control-Allow-Credentials&amp;#39; &amp;#39;true&amp;#39;; 上传文件 client_max_body_size 64m; </description>
+    </item>
+    
+    <item>
+      <title>Hik Camera</title>
+      <link>https://www.jiangjunjie.cn/posts/hik-camera/</link>
+      <pubDate>Tue, 06 Sep 2022 16:36:25 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/hik-camera/</guid>
+      <description>Hikvision Camera RTSP new version Real rtsp://username:password@&amp;lt;address&amp;gt;:&amp;lt;port&amp;gt;/Streaming/Channels/&amp;lt;id&amp;gt;(?parm1=value1&amp;amp;parm2-=value2…) 注：VLC或者EasyPlayer可以支持解析URL里的用户名密码，实际发给设备的RTSP请求不支持带用户名密码。
+username：用户名 password：密码 address： 设备IP地址 port： RTSP端口 id： 通道号&amp;amp;码流类型
+101：通道1主码流
+102：通道1子码流
+103：通道1第三码流
+1701：通道17主码流
+001：零通道主码流 其他参数：例如多播?transportmode=multicast new version Track rtsp://username:password@&amp;lt;address&amp;gt;:&amp;lt;port&amp;gt;/Streaming/tracks/&amp;lt;id&amp;gt;(?parm1=value1&amp;amp;parm2-=value2…) 注：VLC或者EasyPlayer可以支持解析URL里的用户名密码，实际发给设备的RTSP请求不支持带用户名密码。
+username：用户名 password：密码 address： 设备IP地址 port： RTSP端口 id： 通道号&amp;amp;码流类型
+101：通道1主码流
+102：通道1子码流
+103：通道1第三码流
+1701：通道17主码流
+001：零通道主码流 其他参数：例如多播?starttime=20210808t020312z&amp;amp;endtime=20210808t020411z 时间范围是starttime到endtime，其中starttime和endtime的格式要符合ISO 8601。具体格式是YYYYMMDD”T”HHmmSS.fraction”Z”，Y是年，M是月，D是日，T是时间分格符，H是小时，M是分，S是秒，Z是可选的、表示Zulu(GMT) 时间。</description>
+    </item>
+    
+    <item>
+      <title>Poi Tl</title>
+      <link>https://www.jiangjunjie.cn/posts/poi-tl/</link>
+      <pubDate>Tue, 06 Sep 2022 10:51:40 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/poi-tl/</guid>
+      <description>ms word template engine for java https://github.com/Sayi/poi-tl</description>
+    </item>
+    
+    <item>
+      <title>Oracle</title>
+      <link>https://www.jiangjunjie.cn/posts/oracle/</link>
+      <pubDate>Tue, 06 Sep 2022 10:49:26 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/oracle/</guid>
+      <description>ORA-12505, TNS:listener does not currently know of SID given in connect descriptor select INSTANCE_NAME from v$instance; 归档和备份 su - oracle sqlplus /nolog sqlplus user/password [as sysdba] select * from v$flash_recovery_area_usage; select * from v$recovery_file_dest; select space_limit/1024/1024/1024, space_used/1024/1024/1024, space_reclaimable,number_of_files from v$recovery_file_dest; rman target / # archive # 确认归档模式的状态 ARCHIVE LOG LIST; DELETE ARCHIVELOG ALL; # 关闭自动归档 ALTER DATABASE NOARCHIVELOG; # 清空归档日志 ALTER SYSTEM SWITCH LOGFILE; # backup DELETE BACKUP; 初始化设置 alter user system identified by password; ALTER PROFILE DEFAULT LIMIT PASSWORD_LIFE_TIME UNLIMITED; ALTER SYSTEM SET db_create_file_dest = &amp;#34;/home/oracle/app/oracle/oradata&amp;#34;; alter tablespace system add datafile &amp;#39;/home/oracle/app/oracle/oradata/helowin/system2.</description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://www.jiangjunjie.cn/posts/hugo/</link>
+      <pubDate>Tue, 06 Sep 2022 10:43:48 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/hugo/</guid>
+      <description>Update Theme
 git submodule update &amp;ndash;init &amp;ndash;recursive
 New Post
 hugo new posts/name.md
-Spaces shoud been transformed to escape character.</description></item><item><title>Ubuntu Timezone</title><link>https://www.jiangjunjie.cn/2021/10/ubuntu-timezone/</link><pubDate>Fri, 15 Oct 2021 08:37:36 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/10/ubuntu-timezone/</guid><description>CMD: timedatectl set Aisa/Shanghai
-timedatectl list-timezones | grep -o &amp;#34;Asia/Sh.*&amp;#34; timedatectl set-timezone &amp;#34;Asia/&amp;#34;</description></item><item><title>K8s</title><link>https://www.jiangjunjie.cn/2021/06/k8s/</link><pubDate>Tue, 15 Jun 2021 15:37:24 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/06/k8s/</guid><description/></item><item><title>Swagger3</title><link>https://www.jiangjunjie.cn/2021/06/swagger3/</link><pubDate>Tue, 15 Jun 2021 15:18:34 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/06/swagger3/</guid><description/></item><item><title>Logback Spring</title><link>https://www.jiangjunjie.cn/2021/06/logback-spring/</link><pubDate>Tue, 15 Jun 2021 15:17:11 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/06/logback-spring/</guid><description>logback-spring.xml &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt; &amp;lt;configuration scan=&amp;#34;true&amp;#34; scanPeriod=&amp;#34;60 seconds&amp;#34; debug=&amp;#34;false&amp;#34;&amp;gt; &amp;lt;contextName&amp;gt;logback&amp;lt;/contextName&amp;gt; &amp;lt;property name=&amp;#34;LOG_HOME&amp;#34; value=&amp;#34;log&amp;#34;/&amp;gt; &amp;lt;!-- 彩色日志依赖的渲染类 --&amp;gt; &amp;lt;conversionRule conversionWord=&amp;#34;clr&amp;#34; converterClass=&amp;#34;org.springframework.boot.logging.logback.ColorConverter&amp;#34;/&amp;gt; &amp;lt;conversionRule conversionWord=&amp;#34;wex&amp;#34; converterClass=&amp;#34;org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter&amp;#34;/&amp;gt; &amp;lt;!-- 彩色日志格式 --&amp;gt; &amp;lt;property name=&amp;#34;CONSOLE_LOG_PATTERN&amp;#34; value=&amp;#34;%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(%5p) %clr(${PID:- }) [%t]{magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n%wex&amp;#34;/&amp;gt; &amp;lt;property name=&amp;#34;FILE_LOG_PATTERN&amp;#34; value=&amp;#34;%d{yyyy-MM-dd HH:mm:ss.SSS} %5p ${PID:- } --- [%t] %-40.40logger{39} : %m%n%wex&amp;#34;/&amp;gt; &amp;lt;!-</description></item><item><title>SpringBoot</title><link>https://www.jiangjunjie.cn/2021/06/springboot/</link><pubDate>Tue, 15 Jun 2021 14:33:46 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/06/springboot/</guid><description/></item><item><title>SpringBoot Grade</title><link>https://www.jiangjunjie.cn/2021/06/springboot-grade/</link><pubDate>Tue, 15 Jun 2021 14:08:59 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/06/springboot-grade/</guid><description>build.gradle templates plugins { id &amp;#39;org.springframework.boot&amp;#39; version &amp;#39;2.5.0&amp;#39; id &amp;#39;io.spring.dependency-management&amp;#39; version &amp;#39;1.0.11.RELEASE&amp;#39; id &amp;#39;java&amp;#39; } group = &amp;#39;com.example&amp;#39; version = &amp;#39;0.0.1-SNAPSHOT&amp;#39; sourceCompatibility = &amp;#39;1.8&amp;#39; configurations { compileOnly { extendsFrom annotationProcessor } } repositories { maven {url &amp;#39;https://maven.aliyun.com/repository/public&amp;#39;} maven { url &amp;#39;http://192.168.10.204:8081/repository/maven-public/&amp;#39; allowInsecureProtocol true } mavenCentral() } dependencies { // jpa implementation &amp;#39;org.springframework.boot:spring-boot-starter-data-jpa&amp;#39; // swagger mplementation &amp;#39;io.springfox:springfox-boot-starter:3.0.0&amp;#39; // webservice implementation &amp;#39;org.springframework.boot:spring-boot-starter-web-services&amp;#39; // druid implementation &amp;#39;com.alibaba:druid-spring-boot-starter:1.2.5&amp;#39; // mybatis and plus implementation &amp;#39;org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.4&amp;#39;</description></item><item><title>Charles</title><link>https://www.jiangjunjie.cn/2021/04/charles/</link><pubDate>Fri, 02 Apr 2021 10:02:00 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/04/charles/</guid><description>Charles监听localhost请求 访问http://localhost.charlesproxy.com:port 浏览器代理，监听端口</description></item><item><title>Backend Deploy</title><link>https://www.jiangjunjie.cn/2021/03/backend-deploy/</link><pubDate>Tue, 30 Mar 2021 14:29:03 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/backend-deploy/</guid><description>按需修改application-prod.yml，如需打开Swagger，那么需要将enabled设置为true。 打包jar包为app.ja</description></item><item><title>Frontend Deploy</title><link>https://www.jiangjunjie.cn/2021/03/frontend-deploy/</link><pubDate>Tue, 30 Mar 2021 14:29:03 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/frontend-deploy/</guid><description>前端配置 提供两个配置方式 [History、Hash] 的部署方式，首先修改接口地址，如果是IP地址，那么需要修改为外网IP。 VUE_APP_B</description></item><item><title>Nginx</title><link>https://www.jiangjunjie.cn/2021/03/nginx/</link><pubDate>Tue, 30 Mar 2021 14:19:29 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/nginx/</guid><description>安装和配置Nginx容器 文件目录 /home/nginx/conf.d 用于存放配置文件 /home/nginx/cert 用于存放https证书 /home/nginx/html 用于存放网页文件 /home/nginx/logs 用于存放日志 运行nginx容器 docker run -d \ --name nginx --restart always</description></item><item><title>Install PostgreSQL in CentOS 7.4</title><link>https://www.jiangjunjie.cn/2021/03/install-postgresql-in-centos-7.4/</link><pubDate>Tue, 30 Mar 2021 14:04:08 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/install-postgresql-in-centos-7.4/</guid><description>进入PostgreSQL官网：https://www.postgresql.org/download/linux/redhat/ 选择软件版本</description></item><item><title>Use Docker to Deploy SpringBoot Jar</title><link>https://www.jiangjunjie.cn/2021/03/use-docker-to-deploy-springboot-jar/</link><pubDate>Tue, 30 Mar 2021 14:03:01 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/use-docker-to-deploy-springboot-jar/</guid><description>构建与启动Java容器。IntelliJ IDEA运行Gradle bootjar命令 将生成的jar包上传到服务器目录，比如/data目录。 在/</description></item><item><title>Powershell</title><link>https://www.jiangjunjie.cn/2021/03/powershell/</link><pubDate>Thu, 25 Mar 2021 14:08:02 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/powershell/</guid><description>oh-my-posh # https://ohmyposh.dev/docs/installation Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease Get-PoshThemes code $profile Set-PoshPrompt -Theme paradox . $profile git clone https://github.com/powerline/fonts.git cd fonts ./install.ps1 Install-Module ZLocation -Scope CurrentUser; Import-Module ZLocation; Add-Content -Value &amp;#34;`r`n`r`nImport-Module ZLocation`r`n&amp;#34; -Encoding utf8 -Path $PROFILE.CurrentUserAllHosts</description></item><item><title>Cas</title><link>https://www.jiangjunjie.cn/2021/03/cas/</link><pubDate>Thu, 25 Mar 2021 13:55:38 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/cas/</guid><description>install docker run --rm -p 8080:8080 apereo/cas-initializr:6.3.0 curl http://localhost:8080/starter.tgz -o cas.tgz tar -zxvf cas.tgz chmod +x docker-build.sh chmod +x docker-run.sh ./docker-build.sh</description></item><item><title>Wechat</title><link>https://www.jiangjunjie.cn/2021/03/wechat/</link><pubDate>Thu, 25 Mar 2021 10:47:08 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/wechat/</guid><description>Install # install wepy version 1.X cnpm install wepy-cli -g error Q：regeneratorRuntime.mark undefined A: 关掉小程序开发工具ES6转ES5</description></item><item><title>Scoop</title><link>https://www.jiangjunjie.cn/2021/03/scoop/</link><pubDate>Thu, 25 Mar 2021 10:38:14 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/scoop/</guid><description>Instal # https://scoop.sh/ iwr -useb get.scoop.sh | iex # if error Set-ExecutionPolicy RemoteSigned -scope CurrentUser scoop install 7zip git scoop bucket add extras scoop install everything diskgenius postman hugo nvm error 重装系统后无法找到scoop菜单和程序 # powershell运行 scoop reset *</description></item><item><title>nodeJS</title><link>https://www.jiangjunjie.cn/2021/03/nodejs/</link><pubDate>Thu, 25 Mar 2021 09:50:59 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/nodejs/</guid><description>nvm setting nvm ls nvm ls available nvm install {version} nvm use {version} npm setting npm config set registry https://registry.npm.taobao.org npm config set sass_binary_site &amp;#34;https://npm.taobao.org/mirrors/node-sass&amp;#34; npm config list cnpm settting npm install -g cnpm --registry=https://registry.npm.taobao.org error MSBUILD : error MSB4132: 无法识别工具版本“2.0”。可用的工具版本为 &amp;ldquo;4</description></item><item><title>Git</title><link>https://www.jiangjunjie.cn/2021/03/git/</link><pubDate>Thu, 25 Mar 2021 09:50:39 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/git/</guid><description>cmd # 下载子模块代码 git submodule update --init --recursive error Git报错解决：OpenSSL SSL_read: Connection was reset, errno 10054 错误解决 git config --global http.sslVerify &amp;#34;false&amp;#34;</description></item><item><title>Conda</title><link>https://www.jiangjunjie.cn/2021/03/conda/</link><pubDate>Thu, 25 Mar 2021 09:50:27 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/conda/</guid><description>cmd conda info --envs conda info -e conda create -n env-name python=X.X activate env-name deactivate conda remove -n env-name --all</description></item><item><title>Win10</title><link>https://www.jiangjunjie.cn/2021/03/win10/</link><pubDate>Wed, 24 Mar 2021 15:03:44 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/win10/</guid><description>Soft Browser: Chrome/Edge Microsoft Terminal Powershell7 Sougou Input XMind WeChat QQ 向日葵远程控制 360驱动大师 Bandzip Office HBuilderX Java1.8_181 wechat_devtools Jetbrains Toolbox VS Code Axure RP9 Navicat Premium 15 Visual Studio Installer scoop 7zip git everything postman hugo nodejs</description></item><item><title>Docker MongoDB</title><link>https://www.jiangjunjie.cn/2021/03/docker-mongodb/</link><pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/docker-mongodb/</guid><description>start mongodb 4.4 in docker,use ~/mongo/data to persist data docker-compose.yml
-version: &amp;#39;3.1&amp;#39; services: mongodb: image: mongo:4.4 command: mongod --auth volumes: - ~/mongo/data:/data/db ports: - 27017:27017 restart: always environment: MONGO_INITDB_ROOT_USERNAME: {username} MONGO_INITDB_ROOT_PASSWORD: {password}</description></item><item><title>Docker MySQL</title><link>https://www.jiangjunjie.cn/2021/03/docker-mysql/</link><pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/docker-mysql/</guid><description>start mysql8 in docker,use ~/mysql/data to persist data docker-compose.yml
-version: &amp;#39;3.1&amp;#39; services: mysql: image: mysql:8 command: --default-authentication-plugin=mysql_native_password volumes: - ~/mysql/data:/var/lib/mysql ports: - 3306:3306 restart: always environment: MYSQL_ROOT_PASSWORD: {your password} TZ: Asia/Shanghai</description></item><item><title>Docker PgAdmin4</title><link>https://www.jiangjunjie.cn/2021/03/docker-pgadmin4/</link><pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/docker-pgadmin4/</guid><description>start pgadmin4 5.1 in docker docker-compose.yml
-version: &amp;#39;3.1&amp;#39; services: pgadmin4: image: dpage/pgadmin4:5.1 ports: - 8081:80 restart: always environment: PGADMIN_DEFAULT_EMAIL: {email} PGADMIN_DEFAULT_PASSWORD: {password}</description></item><item><title>Docker PostgreSQL</title><link>https://www.jiangjunjie.cn/2021/03/docker-postgresql/</link><pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/docker-postgresql/</guid><description>start postgresql 13 and pgadmin4 5.1 in docker,use ~/postgresql/data to persist data docker-compose.yml
-version: &amp;#39;3.1&amp;#39; services: postgresql: image: postgres:13 volumes: - ~/postgresql/data:/var/lib/postgresql/data ports: - 5432:5432 restart: always environment: POSTGRES_PASSWORD: {password} pgadmin4: image: dpage/pgadmin4:5.1 ports: - 80:80 restart: always environment: PGADMIN_DEFAULT_EMAIL: {email} PGADMIN_DEFAULT_PASSWORD: {password}</description></item><item><title>Docker RabbitMQ</title><link>https://www.jiangjunjie.cn/2021/03/docker-rabbitmq/</link><pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/docker-rabbitmq/</guid><description>start rabbitmq 3.8.14 and management plugin in docker docker-compose.yml
-version: &amp;#39;3.1&amp;#39; services: rabbitmq: image: rabbitmq:3.8.14-management ports: - 15672:15672 - 5672:5672 restart: always environment: RABBITMQ_DEFAULT_USER: {username} RABBITMQ_DEFAULT_PASS: {password}</description></item><item><title>Docker Redis</title><link>https://www.jiangjunjie.cn/2021/03/docker-redis/</link><pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/docker-redis/</guid><description>start redis 6.2 in docker,use ~/redis/data to persist data docker-compose.yml
+Spaces shoud been transformed to escape character.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Timezone</title>
+      <link>https://www.jiangjunjie.cn/posts/ubuntu-timezone/</link>
+      <pubDate>Fri, 15 Oct 2021 08:37:36 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/ubuntu-timezone/</guid>
+      <description>CMD: timedatectl set Aisa/Shanghai
+timedatectl list-timezones | grep -o &amp;#34;Asia/Sh.*&amp;#34; timedatectl set-timezone &amp;#34;Asia/&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>K8s</title>
+      <link>https://www.jiangjunjie.cn/posts/k8s/</link>
+      <pubDate>Tue, 15 Jun 2021 15:37:24 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swagger3</title>
+      <link>https://www.jiangjunjie.cn/posts/swagger3/</link>
+      <pubDate>Tue, 15 Jun 2021 15:18:34 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/swagger3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logback Spring</title>
+      <link>https://www.jiangjunjie.cn/posts/logback-spring/</link>
+      <pubDate>Tue, 15 Jun 2021 15:17:11 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/logback-spring/</guid>
+      <description>logback-spring.xml &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt; &amp;lt;configuration scan=&amp;#34;true&amp;#34; scanPeriod=&amp;#34;60 seconds&amp;#34; debug=&amp;#34;false&amp;#34;&amp;gt; &amp;lt;contextName&amp;gt;logback&amp;lt;/contextName&amp;gt; &amp;lt;property name=&amp;#34;LOG_HOME&amp;#34; value=&amp;#34;log&amp;#34;/&amp;gt; &amp;lt;!-- 彩色日志依赖的渲染类 --&amp;gt; &amp;lt;conversionRule conversionWord=&amp;#34;clr&amp;#34; converterClass=&amp;#34;org.springframework.boot.logging.logback.ColorConverter&amp;#34;/&amp;gt; &amp;lt;conversionRule conversionWord=&amp;#34;wex&amp;#34; converterClass=&amp;#34;org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter&amp;#34;/&amp;gt; &amp;lt;!-- 彩色日志格式 --&amp;gt; &amp;lt;property name=&amp;#34;CONSOLE_LOG_PATTERN&amp;#34; value=&amp;#34;%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(%5p) %clr(${PID:- }) [%t]{magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n%wex&amp;#34;/&amp;gt; &amp;lt;property name=&amp;#34;FILE_LOG_PATTERN&amp;#34; value=&amp;#34;%d{yyyy-MM-dd HH:mm:ss.SSS} %5p ${PID:- } --- [%t] %-40.40logger{39} : %m%n%wex&amp;#34;/&amp;gt; &amp;lt;!--输出到控制台--&amp;gt; &amp;lt;appender name=&amp;#34;console&amp;#34; class=&amp;#34;ch.qos.logback.core.ConsoleAppender&amp;#34;&amp;gt; &amp;lt;encoder&amp;gt; &amp;lt;pattern&amp;gt;${CONSOLE_LOG_PATTERN}&amp;lt;/pattern&amp;gt; &amp;lt;/encoder&amp;gt; &amp;lt;/appender&amp;gt; &amp;lt;!--输出到文件--&amp;gt; &amp;lt;appender name=&amp;#34;file&amp;#34; class=&amp;#34;ch.qos.logback.core.rolling.RollingFileAppender&amp;#34;&amp;gt; &amp;lt;rollingPolicy class=&amp;#34;ch.qos.logback.core.rolling.TimeBasedRollingPolicy&amp;#34;&amp;gt; &amp;lt;fileNamePattern&amp;gt;${LOG_HOME}/logback.%d{yyyy-MM-dd}.log&amp;lt;/fileNamePattern&amp;gt; &amp;lt;maxHistory&amp;gt;30&amp;lt;/maxHistory&amp;gt; &amp;lt;totalSizeCap&amp;gt;1GB&amp;lt;/totalSizeCap&amp;gt; &amp;lt;/rollingPolicy&amp;gt; &amp;lt;encoder&amp;gt; &amp;lt;pattern&amp;gt;%d{HH:mm:ss.SSS} %contextName [%thread] %-5level %logger{36} - %msg%n&amp;lt;/pattern&amp;gt; &amp;lt;/encoder&amp;gt; &amp;lt;/appender&amp;gt; &amp;lt;!</description>
+    </item>
+    
+    <item>
+      <title>SpringBoot</title>
+      <link>https://www.jiangjunjie.cn/posts/springboot/</link>
+      <pubDate>Tue, 15 Jun 2021 14:33:46 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/springboot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SpringBoot Grade</title>
+      <link>https://www.jiangjunjie.cn/posts/springboot-grade/</link>
+      <pubDate>Tue, 15 Jun 2021 14:08:59 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/springboot-grade/</guid>
+      <description>build.gradle templates plugins { id &amp;#39;org.springframework.boot&amp;#39; version &amp;#39;2.5.0&amp;#39; id &amp;#39;io.spring.dependency-management&amp;#39; version &amp;#39;1.0.11.RELEASE&amp;#39; id &amp;#39;java&amp;#39; } group = &amp;#39;com.example&amp;#39; version = &amp;#39;0.0.1-SNAPSHOT&amp;#39; sourceCompatibility = &amp;#39;1.8&amp;#39; configurations { compileOnly { extendsFrom annotationProcessor } } repositories { maven {url &amp;#39;https://maven.aliyun.com/repository/public&amp;#39;} maven { url &amp;#39;http://192.168.10.204:8081/repository/maven-public/&amp;#39; allowInsecureProtocol true } mavenCentral() } dependencies { // jpa implementation &amp;#39;org.springframework.boot:spring-boot-starter-data-jpa&amp;#39; // swagger mplementation &amp;#39;io.springfox:springfox-boot-starter:3.0.0&amp;#39; // webservice implementation &amp;#39;org.springframework.boot:spring-boot-starter-web-services&amp;#39; // druid implementation &amp;#39;com.alibaba:druid-spring-boot-starter:1.2.5&amp;#39; // mybatis and plus implementation &amp;#39;org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.4&amp;#39; implementation &amp;#39;com.</description>
+    </item>
+    
+    <item>
+      <title>Charles</title>
+      <link>https://www.jiangjunjie.cn/posts/charles/</link>
+      <pubDate>Fri, 02 Apr 2021 10:02:00 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/charles/</guid>
+      <description>Charles监听localhost请求 访问http://localhost.charlesproxy.com:port
+浏览器代理，监听端口8888</description>
+    </item>
+    
+    <item>
+      <title>Backend Deploy</title>
+      <link>https://www.jiangjunjie.cn/posts/backend-deploy/</link>
+      <pubDate>Tue, 30 Mar 2021 14:29:03 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/backend-deploy/</guid>
+      <description> 按需修改application-prod.yml，如需打开Swagger，那么需要将enabled设置为true。 打包jar包为app.jar 启动脚本 start.sh nohup java -jar app.jar --spring.profiles.active=prod &amp;gt; nohup.out 2&amp;gt;&amp;amp;1 &amp;amp; 停止脚本 stop.sh PID=$(ps -ef | grep app.jar | grep -v grep | awk &amp;#39;{ print $2 }&amp;#39;) if [ -z &amp;#34;$PID&amp;#34; ] then echo Application is already stopped else echo kill -9 $PID kill -9 $PID fi 查看日志脚本 log.sh tail -f nohup.out 配置nginx server { listen 80; server_name 域名/当前服务器外网IP; location / { proxy_pass http://127.0.0.1:8000; #这里的端口记得改成项目对应的哦 proxy_set_header X-Forwarded-Proto $scheme; proxy_set_header X-Forwarded-Port $server_port; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header Upgrade $http_upgrade; proxy_set_header Connection &amp;#34;upgrade&amp;#34;; } } </description>
+    </item>
+    
+    <item>
+      <title>Frontend Deploy</title>
+      <link>https://www.jiangjunjie.cn/posts/frontend-deploy/</link>
+      <pubDate>Tue, 30 Mar 2021 14:29:03 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/frontend-deploy/</guid>
+      <description>前端配置 提供两个配置方式 [History、Hash] 的部署方式，首先修改接口地址，如果是IP地址，那么需要修改为外网IP。 VUE_APP_BASE_API：没有配置ssl，需要将https改成http VUE_APP_WS_API：如果接口是http形式，wss需要改成ws
+项目默认是History模式，不需要做任何修改 Hash模式：修改routers.js，取消hash的注释，修改根目录vue.config.js配置，取消15行的注释（publicPath：process.env.NODE_ENV blah…） 打包前端项目 npm run build:prod # 打包完成后会在根目录生成dist文件夹，我们需要将他上传到服务器中 Nginx配置 History模式 server { listen 80; server_name 域名/外网IP; index index.html; root /usr/share/nginx/html/{name}/dist; #dist上传的路径 # 避免访问出现 404 错误 location / { try_files $uri $uri/ @router; index index.html; } location @router { rewrite ^.*$ /index.html last; } } Hash模式 server { listen 80; server_name 域名/外网IP; location / { root /usr/share/nginx/html/{name}/dist; #dist上传的路径 index index.html; } } 二级目录部署 # Nginx配置 server { listen 80; server_name 域名/外网IP; location /dist { root /usr/share/nginx/html/{name}/test; index index.</description>
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>https://www.jiangjunjie.cn/posts/nginx/</link>
+      <pubDate>Tue, 30 Mar 2021 14:19:29 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/nginx/</guid>
+      <description>安装和配置Nginx容器 文件目录 /home/nginx/conf.d 用于存放配置文件
+/home/nginx/cert 用于存放https证书
+/home/nginx/html 用于存放网页文件
+/home/nginx/logs 用于存放日志
+运行nginx容器 docker run -d \ --name nginx --restart always \ -p 80:80 -p 443:443 \ -e &amp;#34;TZ=Asia/Shanghai&amp;#34; \ -v /home/nginx/nginx.conf:/etc/nginx/nginx.conf \ -v /home/nginx/conf.d:/etc/nginx/conf.d \ -v /home/nginx/logs:/var/log/nginx \ -v /home/nginx/cert:/etc/nginx/cert \ -v /home/nginx/html:/usr/share/nginx/html \ nginx:alpine 配置nginx 这里使用Nginx反向代理访问后端服务，由于容器内部通信，因此需要使用容器的IP，也就是172.17.0.1。 在/home/nginx/conf.d创建一个{name}.conf的配置文件，文件内容如下 server { listen 80; server_name 域名/外网IP; index index.html; root /usr/share/nginx/html/{name}/dist; #dist上传的路径 # 避免访问出现 404 错误 location / { try_files $uri $uri/ @router; index index.</description>
+    </item>
+    
+    <item>
+      <title>Install PostgreSQL in CentOS 7.4</title>
+      <link>https://www.jiangjunjie.cn/posts/install-postgresql-in-centos-7.4/</link>
+      <pubDate>Tue, 30 Mar 2021 14:04:08 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/install-postgresql-in-centos-7.4/</guid>
+      <description> 进入PostgreSQL官网：https://www.postgresql.org/download/linux/redhat/ 选择软件版本和系统版本 在服务器上执行脚本，以CentOS7.4和PostgreSQL13为例 # Install the repository RPM: sudo yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm # Install PostgreSQL: sudo yum install -y postgresql13-server # Optionally initialize the database and enable automatic start: sudo /usr/pgsql-13/bin/postgresql-13-setup initdb sudo systemctl enable postgresql-13 sudo systemctl start postgresql-13 远程连接，密码配置 配置文件路径/var/lib/pgsql/13/data/pg_hba.conf。修改127.0.0.1/32为0.0.0.0/0 配置文件路径/var/lib/pgsql/13/data/postgresql.conf。修改listen_address=&amp;quot;*&amp;quot;,取消port=5432的注释 重启postgresql 配置防火墙，放行5432端口 sudo firewall-cmd --permanent --add-port=5432/tcp sudo firewall-cmd –reload 修改密码 su – postgres psql ALTER USER postgres WITH PASSWORD &amp;#39;这里输入你的密码&amp;#39;; \q exit </description>
+    </item>
+    
+    <item>
+      <title>Use Docker to Deploy SpringBoot Jar </title>
+      <link>https://www.jiangjunjie.cn/posts/use-docker-to-deploy-springboot-jar-/</link>
+      <pubDate>Tue, 30 Mar 2021 14:03:01 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/use-docker-to-deploy-springboot-jar-/</guid>
+      <description> 构建与启动Java容器。IntelliJ IDEA运行Gradle bootjar命令 将生成的jar包上传到服务器目录，比如/data目录。 在/data目录创建Dockerfile 文件 FROM java:8 ARG JAR_FILE=./*.jar COPY ${JAR_FILE} app.jar ENV TZ=Asia/Shanghai ENTRYPOINT [&amp;#34;java&amp;#34;,&amp;#34;-jar&amp;#34;,&amp;#34;/app.jar&amp;#34;] 构建镜像 docker build -t {image}:{tag} . (注意最后有点.) 运行 docker run -d \ --name {name} --restart always \ -p {port}:{port} \ -e &amp;#34;TZ=Asia/Shanghai&amp;#34; \ -e DB_HOST=172.17.0.1 \ -e DB_PWD=mysql_pwd \ -e REDIS_HOST=172.17.0.1 \ -v /data/userData:{镜像内路径} \ {image}:{tag} docker-compose.yml # coming soon </description>
+    </item>
+    
+    <item>
+      <title>Powershell</title>
+      <link>https://www.jiangjunjie.cn/posts/powershell/</link>
+      <pubDate>Thu, 25 Mar 2021 14:08:02 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/powershell/</guid>
+      <description>oh-my-posh # https://ohmyposh.dev/docs/installation Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease Get-PoshThemes code $profile Set-PoshPrompt -Theme paradox . $profile git clone https://github.com/powerline/fonts.git cd fonts ./install.ps1 Install-Module ZLocation -Scope CurrentUser; Import-Module ZLocation; Add-Content -Value &amp;#34;`r`n`r`nImport-Module ZLocation`r`n&amp;#34; -Encoding utf8 -Path $PROFILE.CurrentUserAllHosts </description>
+    </item>
+    
+    <item>
+      <title>Cas</title>
+      <link>https://www.jiangjunjie.cn/posts/cas/</link>
+      <pubDate>Thu, 25 Mar 2021 13:55:38 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/cas/</guid>
+      <description>install docker run --rm -p 8080:8080 apereo/cas-initializr:6.3.0 curl http://localhost:8080/starter.tgz -o cas.tgz tar -zxvf cas.tgz chmod +x docker-build.sh chmod +x docker-run.sh ./docker-build.sh </description>
+    </item>
+    
+    <item>
+      <title>Wechat</title>
+      <link>https://www.jiangjunjie.cn/posts/wechat/</link>
+      <pubDate>Thu, 25 Mar 2021 10:47:08 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/wechat/</guid>
+      <description>Install # install wepy version 1.X cnpm install wepy-cli -g error Q：regeneratorRuntime.mark undefined
+A: 关掉小程序开发工具ES6转ES5</description>
+    </item>
+    
+    <item>
+      <title>Scoop</title>
+      <link>https://www.jiangjunjie.cn/posts/scoop/</link>
+      <pubDate>Thu, 25 Mar 2021 10:38:14 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/scoop/</guid>
+      <description>Instal # https://scoop.sh/ iwr -useb get.scoop.sh | iex # if error Set-ExecutionPolicy RemoteSigned -scope CurrentUser scoop install 7zip git scoop bucket add extras scoop install everything diskgenius postman hugo nvm error 重装系统后无法找到scoop菜单和程序 # powershell运行 scoop reset * </description>
+    </item>
+    
+    <item>
+      <title>nodeJS</title>
+      <link>https://www.jiangjunjie.cn/posts/nodejs/</link>
+      <pubDate>Thu, 25 Mar 2021 09:50:59 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/nodejs/</guid>
+      <description>nvm setting nvm ls nvm ls available nvm install {version} nvm use {version} npm setting npm config set registry https://registry.npm.taobao.org npm config set sass_binary_site &amp;#34;https://npm.taobao.org/mirrors/node-sass&amp;#34; npm config list cnpm settting npm install -g cnpm --registry=https://registry.npm.taobao.org error MSBUILD : error MSB4132: 无法识别工具版本“2.0”。可用的工具版本为 &amp;ldquo;4.0&amp;rdquo;。 npm install --msvs_version 2015 </description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://www.jiangjunjie.cn/posts/git/</link>
+      <pubDate>Thu, 25 Mar 2021 09:50:39 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/git/</guid>
+      <description>cmd # 下载子模块代码 git submodule update --init --recursive error Git报错解决：OpenSSL SSL_read: Connection was reset, errno 10054 错误解决 git config --global http.sslVerify &amp;#34;false&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>Conda</title>
+      <link>https://www.jiangjunjie.cn/posts/conda/</link>
+      <pubDate>Thu, 25 Mar 2021 09:50:27 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/conda/</guid>
+      <description>cmd conda info --envs conda info -e conda create -n env-name python=X.X activate env-name deactivate conda remove -n env-name --all </description>
+    </item>
+    
+    <item>
+      <title>Win10</title>
+      <link>https://www.jiangjunjie.cn/posts/win10/</link>
+      <pubDate>Wed, 24 Mar 2021 15:03:44 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/win10/</guid>
+      <description>Soft Browser: Chrome/Edge Microsoft Terminal Powershell7 Sougou Input XMind WeChat QQ 向日葵远程控制 360驱动大师 Bandzip Office HBuilderX Java1.8_181 wechat_devtools Jetbrains Toolbox VS Code Axure RP9 Navicat Premium 15 Visual Studio Installer scoop 7zip git everything postman hugo nodejs </description>
+    </item>
+    
+    <item>
+      <title>Docker MongoDB</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-mongodb/</link>
+      <pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-mongodb/</guid>
+      <description>start mongodb 4.4 in docker,use ~/mongo/data to persist data docker-compose.yml
+version: &amp;#39;3.1&amp;#39; services: mongodb: image: mongo:4.4 command: mongod --auth volumes: - ~/mongo/data:/data/db ports: - 27017:27017 restart: always environment: MONGO_INITDB_ROOT_USERNAME: {username} MONGO_INITDB_ROOT_PASSWORD: {password} </description>
+    </item>
+    
+    <item>
+      <title>Docker MySQL</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-mysql/</link>
+      <pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-mysql/</guid>
+      <description>start mysql8 in docker,use ~/mysql/data to persist data docker-compose.yml
+version: &amp;#39;3.1&amp;#39; services: mysql: image: mysql:8 command: --default-authentication-plugin=mysql_native_password volumes: - ~/mysql/data:/var/lib/mysql ports: - 3306:3306 restart: always environment: MYSQL_ROOT_PASSWORD: {your password} TZ: Asia/Shanghai </description>
+    </item>
+    
+    <item>
+      <title>Docker PgAdmin4</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-pgadmin4/</link>
+      <pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-pgadmin4/</guid>
+      <description>start pgadmin4 5.1 in docker docker-compose.yml
+version: &amp;#39;3.1&amp;#39; services: pgadmin4: image: dpage/pgadmin4:5.1 ports: - 8081:80 restart: always environment: PGADMIN_DEFAULT_EMAIL: {email} PGADMIN_DEFAULT_PASSWORD: {password} </description>
+    </item>
+    
+    <item>
+      <title>Docker PostgreSQL</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-postgresql/</link>
+      <pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-postgresql/</guid>
+      <description>start postgresql 13 and pgadmin4 5.1 in docker,use ~/postgresql/data to persist data docker-compose.yml
+version: &amp;#39;3.1&amp;#39; services: postgresql: image: postgres:13 volumes: - ~/postgresql/data:/var/lib/postgresql/data ports: - 5432:5432 restart: always environment: POSTGRES_PASSWORD: {password} pgadmin4: image: dpage/pgadmin4:5.1 ports: - 80:80 restart: always environment: PGADMIN_DEFAULT_EMAIL: {email} PGADMIN_DEFAULT_PASSWORD: {password} </description>
+    </item>
+    
+    <item>
+      <title>Docker RabbitMQ</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-rabbitmq/</link>
+      <pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-rabbitmq/</guid>
+      <description>start rabbitmq 3.8.14 and management plugin in docker docker-compose.yml
+version: &amp;#39;3.1&amp;#39; services: rabbitmq: image: rabbitmq:3.8.14-management ports: - 15672:15672 - 5672:5672 restart: always environment: RABBITMQ_DEFAULT_USER: {username} RABBITMQ_DEFAULT_PASS: {password} </description>
+    </item>
+    
+    <item>
+      <title>Docker Redis</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-redis/</link>
+      <pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-redis/</guid>
+      <description>start redis 6.2 in docker,use ~/redis/data to persist data docker-compose.yml
 version: &amp;#39;3.1&amp;#39; services: redis: image: redis:6.2 #command: redis-server --requirepass {password} command: redis-server /usr/local/etc/redis/redis.conf volumes: - ~/redis/redis.conf:/usr/local/etc/redis/redis.conf - ~/redis/data/:/data/ ports: - 6379:6379 restart: always redis.conf
-requirepass {password} appendonly yes daemonize no</description></item><item><title>Vscode</title><link>https://www.jiangjunjie.cn/2021/03/vscode/</link><pubDate>Wed, 24 Mar 2021 14:54:33 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/vscode/</guid><description>Open Powershell core in Terminal # settings.json &amp;#34;terminal.integrated.shell.windows&amp;#34;: &amp;#34;{path to pwsh.exe}&amp;#34;,</description></item><item><title>Proxy</title><link>https://www.jiangjunjie.cn/2021/03/proxy/</link><pubDate>Wed, 24 Mar 2021 14:50:15 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/proxy/</guid><description>win10 powershell
-code $profile # Microsoft.PowerShell_profile.ps1 function proxy { $env:HTTP_PROXY=&amp;#34;http://127.0.0.1:7890&amp;#34; $env:HTTPS_PROXY=&amp;#34;http://127.0.0.1:7890&amp;#34; } function unproxy { $env:HTTP_PROXY=&amp;#34;&amp;#34; $env:HTTPS_PROXY=&amp;#34;&amp;#34; }</description></item><item><title>Ssh</title><link>https://www.jiangjunjie.cn/2021/03/ssh/</link><pubDate>Wed, 24 Mar 2021 14:49:25 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/ssh/</guid><description>generate ssh-keygen -t ed25519 -C &amp;#34;comment&amp;#34; # win10 cat ~/.ssh/id_ed25519.pub | clip</description></item><item><title>Win10</title><link>https://www.jiangjunjie.cn/2021/03/win10-login-error/</link><pubDate>Wed, 24 Mar 2021 14:47:25 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/win10-login-error/</guid><description>office 登录 0x80190001错误 管理员运行powershell netsh int ip reset windows store打不开 管理员运行powershell netsh winsock reset</description></item><item><title>Docker Compose</title><link>https://www.jiangjunjie.cn/2021/03/docker-compose/</link><pubDate>Wed, 24 Mar 2021 14:30:04 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/docker-compose/</guid><description>Install Docker Compose V2 in CentOS7.4 Docker Engine Installed cmd mkdir -p ~/.docker/cli-plugins/ curl -SL https://github.com/docker/compose/releases/download/v2.0.1/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose chmod +x ~/.docker/cli-plugins/docker-compose To install Docker Compose for all users on your system, replace ~/.docker/cli-plugins with /usr/local/lib/docker/cli-plugins docker compose version 新版本Docker自带Docker Compose V2</description></item><item><title>Docker</title><link>https://www.jiangjunjie.cn/2021/03/docker/</link><pubDate>Wed, 17 Mar 2021 13:58:53 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/docker/</guid><description>Install # use aliyun mirror curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun mirrors { &amp;#34;registry-mirrors&amp;#34;: [ &amp;#34;https://dockerproxy.com&amp;#34;, &amp;#34;https://registry.docker-cn.com&amp;#34; ] } # registry sudo docker run -d -p 5000:5000 --restart always --name registry -v docker-registry:/var/lib/registry registry:2 # nexus oss3 sudo docker volume create nexus-data sudo docker run -d --restart always -p 8081:8081 --name nexus -v nexus-data:/nexus-data sonatype/nexus3 issue 在docker容器内部</description></item><item><title>Install Gitlab CE in CentOS 7.4</title><link>https://www.jiangjunjie.cn/2021/03/install-gitlab-ce-in-centos-7.4/</link><pubDate>Wed, 17 Mar 2021 10:50:56 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/install-gitlab-ce-in-centos-7.4/</guid><description>Introduce Tell you how to install Gitlab CE(Community Edition) in CentOS 7.4 step by step.
+requirepass {password} appendonly yes daemonize no </description>
+    </item>
+    
+    <item>
+      <title>Vscode</title>
+      <link>https://www.jiangjunjie.cn/posts/vscode/</link>
+      <pubDate>Wed, 24 Mar 2021 14:54:33 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/vscode/</guid>
+      <description>Open Powershell core in Terminal # settings.json &amp;#34;terminal.integrated.shell.windows&amp;#34;: &amp;#34;{path to pwsh.exe}&amp;#34;, </description>
+    </item>
+    
+    <item>
+      <title>Proxy</title>
+      <link>https://www.jiangjunjie.cn/posts/proxy/</link>
+      <pubDate>Wed, 24 Mar 2021 14:50:15 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/proxy/</guid>
+      <description>win10 powershell
+code $profile # Microsoft.PowerShell_profile.ps1 function proxy { $env:HTTP_PROXY=&amp;#34;http://127.0.0.1:7890&amp;#34; $env:HTTPS_PROXY=&amp;#34;http://127.0.0.1:7890&amp;#34; } function unproxy { $env:HTTP_PROXY=&amp;#34;&amp;#34; $env:HTTPS_PROXY=&amp;#34;&amp;#34; } </description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>https://www.jiangjunjie.cn/posts/ssh/</link>
+      <pubDate>Wed, 24 Mar 2021 14:49:25 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/ssh/</guid>
+      <description>generate ssh-keygen -t ed25519 -C &amp;#34;comment&amp;#34; # win10 cat ~/.ssh/id_ed25519.pub | clip </description>
+    </item>
+    
+    <item>
+      <title>Win10</title>
+      <link>https://www.jiangjunjie.cn/posts/win10-login-error/</link>
+      <pubDate>Wed, 24 Mar 2021 14:47:25 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/win10-login-error/</guid>
+      <description>office 登录 0x80190001错误 管理员运行powershell
+netsh int ip reset windows store打不开 管理员运行powershell
+netsh winsock reset </description>
+    </item>
+    
+    <item>
+      <title>Docker Compose</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-compose/</link>
+      <pubDate>Wed, 24 Mar 2021 14:30:04 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-compose/</guid>
+      <description>Install Docker Compose V2 in CentOS7.4 Docker Engine Installed cmd mkdir -p ~/.docker/cli-plugins/ curl -SL https://github.com/docker/compose/releases/download/v2.0.1/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose chmod +x ~/.docker/cli-plugins/docker-compose To install Docker Compose for all users on your system, replace ~/.docker/cli-plugins with /usr/local/lib/docker/cli-plugins docker compose version 新版本Docker自带Docker Compose V2 </description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://www.jiangjunjie.cn/posts/docker/</link>
+      <pubDate>Wed, 17 Mar 2021 13:58:53 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker/</guid>
+      <description>Install # use aliyun mirror curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun mirrors { &amp;#34;registry-mirrors&amp;#34;: [ &amp;#34;https://dockerproxy.com&amp;#34;, &amp;#34;https://registry.docker-cn.com&amp;#34; ] } # registry sudo docker run -d -p 5000:5000 --restart always --name registry -v docker-registry:/var/lib/registry registry:2 # nexus oss3 sudo docker volume create nexus-data sudo docker run -d --restart always -p 8081:8081 --name nexus -v nexus-data:/nexus-data sonatype/nexus3 issue 在docker容器内部执行 jmap命令报错 Operation not permitted # Docker 自1.10版本开始加入的安全特性。类似于 jmap 这些 JDK 工具依赖于 Linux 的 PTRACE_ATTACH,而是Docker自1.</description>
+    </item>
+    
+    <item>
+      <title>Install Gitlab CE in CentOS 7.4</title>
+      <link>https://www.jiangjunjie.cn/posts/install-gitlab-ce-in-centos-7.4/</link>
+      <pubDate>Wed, 17 Mar 2021 10:50:56 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/install-gitlab-ce-in-centos-7.4/</guid>
+      <description>Introduce Tell you how to install Gitlab CE(Community Edition) in CentOS 7.4 step by step.
 Doc https://about.gitlab.com/install/?version=ce#centos-7
-Install # Prerequisite sudo yum install -y curl policycoreutils-python openssh-server openssh-clients perl sudo systemctl enable sshd sudo systemctl start sshd # Firewall setting sudo firewall-cmd --permanent --add-service=http sudo firewall-cmd --permanent --add-service=https sudo systemctl reload firewalld # Install Gitlab ce repo curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash # Install Gitlab CE and set EXTERNAL_URL(your ip or host,http or https) sudo EXTERNAL_URL=&amp;#34;http://192.</description></item><item><title>Static Site using Hugo</title><link>https://www.jiangjunjie.cn/2021/03/static-site-using-hugo/</link><pubDate>Wed, 17 Mar 2021 10:50:56 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/static-site-using-hugo/</guid><description>Install Hugo # macos brew install hugo # windows using scoop scoop install hugo Deploy to Middleware hugo --minify Then, upload files in the public folder to middleware folder(eg. html folder in nginx)
-Deploy to Github Pages Coming soon&amp;hellip;</description></item></channel></rss>
+Install # Prerequisite sudo yum install -y curl policycoreutils-python openssh-server openssh-clients perl sudo systemctl enable sshd sudo systemctl start sshd # Firewall setting sudo firewall-cmd --permanent --add-service=http sudo firewall-cmd --permanent --add-service=https sudo systemctl reload firewalld # Install Gitlab ce repo curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash # Install Gitlab CE and set EXTERNAL_URL(your ip or host,http or https) sudo EXTERNAL_URL=&amp;#34;http://192.</description>
+    </item>
+    
+    <item>
+      <title>Static Site using Hugo</title>
+      <link>https://www.jiangjunjie.cn/posts/static-site-using-hugo/</link>
+      <pubDate>Wed, 17 Mar 2021 10:50:56 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/static-site-using-hugo/</guid>
+      <description>Install Hugo # macos brew install hugo # windows using scoop scoop install hugo Deploy to Middleware hugo --minify Then, upload files in the public folder to middleware folder(eg. html folder in nginx)
+Deploy to Github Pages Coming soon&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,3 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>redis on Jiang Jun Jie's Site</title><link>https://www.jiangjunjie.cn/tags/redis/</link><description>Recent content in redis on Jiang Jun Jie's Site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 24 Mar 2021 14:57:02 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/redis/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker Redis</title><link>https://www.jiangjunjie.cn/2021/03/docker-redis/</link><pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/docker-redis/</guid><description>start redis 6.2 in docker,use ~/redis/data to persist data docker-compose.yml
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>redis on Jiang Jun Jie&#39;s Site</title>
+    <link>https://www.jiangjunjie.cn/tags/redis/</link>
+    <description>Recent content in redis on Jiang Jun Jie&#39;s Site</description>
+    <image>
+      <title>Jiang Jun Jie&#39;s Site</title>
+      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
+      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 24 Mar 2021 14:57:02 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/redis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Redis</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-redis/</link>
+      <pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-redis/</guid>
+      <description>start redis 6.2 in docker,use ~/redis/data to persist data docker-compose.yml
 version: &amp;#39;3.1&amp;#39; services: redis: image: redis:6.2 #command: redis-server --requirepass {password} command: redis-server /usr/local/etc/redis/redis.conf volumes: - ~/redis/redis.conf:/usr/local/etc/redis/redis.conf - ~/redis/data/:/data/ ports: - 6379:6379 restart: always redis.conf
-requirepass {password} appendonly yes daemonize no</description></item></channel></rss>
+requirepass {password} appendonly yes daemonize no </description>
+    </item>
+    
+  </channel>
+</rss>

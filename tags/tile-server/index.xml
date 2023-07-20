@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tile-server on Jiang Jun Jie's Site</title><link>https://www.jiangjunjie.cn/tags/tile-server/</link><description>Recent content in tile-server on Jiang Jun Jie's Site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 08 Sep 2022 10:53:13 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/tile-server/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker OSM</title><link>https://www.jiangjunjie.cn/2022/09/docker-osm/</link><pubDate>Thu, 08 Sep 2022 10:53:13 +0800</pubDate><guid>https://www.jiangjunjie.cn/2022/09/docker-osm/</guid><description>version: &amp;#39;3.2&amp;#39; services: osm: image: overv/openstreetmap-tile-server:latest container_name: osm volumes: - openstreetmap-data:/var/lib/postgresql/12/main # environment: # - ALLOW_CORS=enabled ports: - 28080:80 restart: always command: &amp;#34;run&amp;#34; networks: - proxy volumes: openstreetmap-data: external: true networks: proxy: external: true</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>tile-server on Jiang Jun Jie&#39;s Site</title>
+    <link>https://www.jiangjunjie.cn/tags/tile-server/</link>
+    <description>Recent content in tile-server on Jiang Jun Jie&#39;s Site</description>
+    <image>
+      <title>Jiang Jun Jie&#39;s Site</title>
+      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
+      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Sep 2022 10:53:13 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/tile-server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker OSM</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-osm/</link>
+      <pubDate>Thu, 08 Sep 2022 10:53:13 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-osm/</guid>
+      <description>version: &amp;#39;3.2&amp;#39; services: osm: image: overv/openstreetmap-tile-server:latest container_name: osm volumes: - openstreetmap-data:/var/lib/postgresql/12/main # environment: # - ALLOW_CORS=enabled ports: - 28080:80 restart: always command: &amp;#34;run&amp;#34; networks: - proxy volumes: openstreetmap-data: external: true networks: proxy: external: true </description>
+    </item>
+    
+  </channel>
+</rss>

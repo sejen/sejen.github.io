@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>git on Jiang Jun Jie's Site</title><link>https://www.jiangjunjie.cn/tags/git/</link><description>Recent content in git on Jiang Jun Jie's Site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 25 Mar 2021 09:50:39 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Git</title><link>https://www.jiangjunjie.cn/2021/03/git/</link><pubDate>Thu, 25 Mar 2021 09:50:39 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/git/</guid><description>cmd # 下载子模块代码 git submodule update --init --recursive error Git报错解决：OpenSSL SSL_read: Connection was reset, errno 10054 错误解决 git config --global http.sslVerify &amp;#34;false&amp;#34;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>git on Jiang Jun Jie&#39;s Site</title>
+    <link>https://www.jiangjunjie.cn/tags/git/</link>
+    <description>Recent content in git on Jiang Jun Jie&#39;s Site</description>
+    <image>
+      <title>Jiang Jun Jie&#39;s Site</title>
+      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
+      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 25 Mar 2021 09:50:39 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>https://www.jiangjunjie.cn/posts/git/</link>
+      <pubDate>Thu, 25 Mar 2021 09:50:39 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/git/</guid>
+      <description>cmd # 下载子模块代码 git submodule update --init --recursive error Git报错解决：OpenSSL SSL_read: Connection was reset, errno 10054 错误解决 git config --global http.sslVerify &amp;#34;false&amp;#34; </description>
+    </item>
+    
+  </channel>
+</rss>

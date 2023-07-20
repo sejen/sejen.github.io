@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>keycloak on Jiang Jun Jie's Site</title><link>https://www.jiangjunjie.cn/tags/keycloak/</link><description>Recent content in keycloak on Jiang Jun Jie's Site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 08 Sep 2022 10:13:00 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/keycloak/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker Keycloak</title><link>https://www.jiangjunjie.cn/2022/09/docker-keycloak/</link><pubDate>Thu, 08 Sep 2022 10:13:00 +0800</pubDate><guid>https://www.jiangjunjie.cn/2022/09/docker-keycloak/</guid><description>version: &amp;#39;3&amp;#39; volumes: postgres_data: driver: local services: postgres: image: postgres volumes: - postgres_data:/var/lib/postgresql/data environment: POSTGRES_DB: keycloak POSTGRES_USER: keycloak POSTGRES_PASSWORD: {db password} keycloak: image: quay.io/keycloak/keycloak:legacy environment: DB_VENDOR: POSTGRES DB_ADDR: postgres DB_DATABASE: keycloak DB_USER: keycloak DB_SCHEMA: public DB_PASSWORD: {db password} KEYCLOAK_USER: admin KEYCLOAK_PASSWORD: {password} # Uncomment the line below if you want to specify JDBC parameters. The parameter below is just an example, and it shouldn&amp;#39;t be used in production without knowledge. It is highly recommended that you read the PostgreSQL JDBC driver documentation in order to use it.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>keycloak on Jiang Jun Jie&#39;s Site</title>
+    <link>https://www.jiangjunjie.cn/tags/keycloak/</link>
+    <description>Recent content in keycloak on Jiang Jun Jie&#39;s Site</description>
+    <image>
+      <title>Jiang Jun Jie&#39;s Site</title>
+      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
+      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Sep 2022 10:13:00 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/keycloak/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Keycloak</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-keycloak/</link>
+      <pubDate>Thu, 08 Sep 2022 10:13:00 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-keycloak/</guid>
+      <description>version: &amp;#39;3&amp;#39; volumes: postgres_data: driver: local services: postgres: image: postgres volumes: - postgres_data:/var/lib/postgresql/data environment: POSTGRES_DB: keycloak POSTGRES_USER: keycloak POSTGRES_PASSWORD: {db password} keycloak: image: quay.io/keycloak/keycloak:legacy environment: DB_VENDOR: POSTGRES DB_ADDR: postgres DB_DATABASE: keycloak DB_USER: keycloak DB_SCHEMA: public DB_PASSWORD: {db password} KEYCLOAK_USER: admin KEYCLOAK_PASSWORD: {password} # Uncomment the line below if you want to specify JDBC parameters. The parameter below is just an example, and it shouldn&amp;#39;t be used in production without knowledge. It is highly recommended that you read the PostgreSQL JDBC driver documentation in order to use it.</description>
+    </item>
+    
+  </channel>
+</rss>

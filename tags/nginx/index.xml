@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nginx on Jiang Jun Jie's Site</title><link>https://www.jiangjunjie.cn/tags/nginx/</link><description>Recent content in nginx on Jiang Jun Jie's Site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 30 Mar 2021 14:19:29 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/nginx/index.xml" rel="self" type="application/rss+xml"/><item><title>Nginx</title><link>https://www.jiangjunjie.cn/2021/03/nginx/</link><pubDate>Tue, 30 Mar 2021 14:19:29 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/nginx/</guid><description>安装和配置Nginx容器 文件目录 /home/nginx/conf.d 用于存放配置文件 /home/nginx/cert 用于存放https证书 /home/nginx/html 用于存放网页文件 /home/nginx/logs 用于存放日志 运行nginx容器 docker run -d \ --name nginx --restart always</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>nginx on Jiang Jun Jie&#39;s Site</title>
+    <link>https://www.jiangjunjie.cn/tags/nginx/</link>
+    <description>Recent content in nginx on Jiang Jun Jie&#39;s Site</description>
+    <image>
+      <title>Jiang Jun Jie&#39;s Site</title>
+      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
+      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Mar 2021 14:19:29 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nginx</title>
+      <link>https://www.jiangjunjie.cn/posts/nginx/</link>
+      <pubDate>Tue, 30 Mar 2021 14:19:29 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/nginx/</guid>
+      <description>安装和配置Nginx容器 文件目录 /home/nginx/conf.d 用于存放配置文件
+/home/nginx/cert 用于存放https证书
+/home/nginx/html 用于存放网页文件
+/home/nginx/logs 用于存放日志
+运行nginx容器 docker run -d \ --name nginx --restart always \ -p 80:80 -p 443:443 \ -e &amp;#34;TZ=Asia/Shanghai&amp;#34; \ -v /home/nginx/nginx.conf:/etc/nginx/nginx.conf \ -v /home/nginx/conf.d:/etc/nginx/conf.d \ -v /home/nginx/logs:/var/log/nginx \ -v /home/nginx/cert:/etc/nginx/cert \ -v /home/nginx/html:/usr/share/nginx/html \ nginx:alpine 配置nginx 这里使用Nginx反向代理访问后端服务，由于容器内部通信，因此需要使用容器的IP，也就是172.17.0.1。 在/home/nginx/conf.d创建一个{name}.conf的配置文件，文件内容如下 server { listen 80; server_name 域名/外网IP; index index.html; root /usr/share/nginx/html/{name}/dist; #dist上传的路径 # 避免访问出现 404 错误 location / { try_files $uri $uri/ @router; index index.</description>
+    </item>
+    
+  </channel>
+</rss>

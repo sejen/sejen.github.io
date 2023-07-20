@@ -1,2 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>postgresql on Jiang Jun Jie's Site</title><link>https://www.jiangjunjie.cn/tags/postgresql/</link><description>Recent content in postgresql on Jiang Jun Jie's Site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 30 Mar 2021 14:04:08 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/postgresql/index.xml" rel="self" type="application/rss+xml"/><item><title>Install PostgreSQL in CentOS 7.4</title><link>https://www.jiangjunjie.cn/2021/03/install-postgresql-in-centos-7.4/</link><pubDate>Tue, 30 Mar 2021 14:04:08 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/install-postgresql-in-centos-7.4/</guid><description>进入PostgreSQL官网：https://www.postgresql.org/download/linux/redhat/ 选择软件版本</description></item><item><title>Docker PostgreSQL</title><link>https://www.jiangjunjie.cn/2021/03/docker-postgresql/</link><pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/docker-postgresql/</guid><description>start postgresql 13 and pgadmin4 5.1 in docker,use ~/postgresql/data to persist data docker-compose.yml
-version: &amp;#39;3.1&amp;#39; services: postgresql: image: postgres:13 volumes: - ~/postgresql/data:/var/lib/postgresql/data ports: - 5432:5432 restart: always environment: POSTGRES_PASSWORD: {password} pgadmin4: image: dpage/pgadmin4:5.1 ports: - 80:80 restart: always environment: PGADMIN_DEFAULT_EMAIL: {email} PGADMIN_DEFAULT_PASSWORD: {password}</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>postgresql on Jiang Jun Jie&#39;s Site</title>
+    <link>https://www.jiangjunjie.cn/tags/postgresql/</link>
+    <description>Recent content in postgresql on Jiang Jun Jie&#39;s Site</description>
+    <image>
+      <title>Jiang Jun Jie&#39;s Site</title>
+      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
+      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Mar 2021 14:04:08 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install PostgreSQL in CentOS 7.4</title>
+      <link>https://www.jiangjunjie.cn/posts/install-postgresql-in-centos-7.4/</link>
+      <pubDate>Tue, 30 Mar 2021 14:04:08 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/install-postgresql-in-centos-7.4/</guid>
+      <description> 进入PostgreSQL官网：https://www.postgresql.org/download/linux/redhat/ 选择软件版本和系统版本 在服务器上执行脚本，以CentOS7.4和PostgreSQL13为例 # Install the repository RPM: sudo yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm # Install PostgreSQL: sudo yum install -y postgresql13-server # Optionally initialize the database and enable automatic start: sudo /usr/pgsql-13/bin/postgresql-13-setup initdb sudo systemctl enable postgresql-13 sudo systemctl start postgresql-13 远程连接，密码配置 配置文件路径/var/lib/pgsql/13/data/pg_hba.conf。修改127.0.0.1/32为0.0.0.0/0 配置文件路径/var/lib/pgsql/13/data/postgresql.conf。修改listen_address=&amp;quot;*&amp;quot;,取消port=5432的注释 重启postgresql 配置防火墙，放行5432端口 sudo firewall-cmd --permanent --add-port=5432/tcp sudo firewall-cmd –reload 修改密码 su – postgres psql ALTER USER postgres WITH PASSWORD &amp;#39;这里输入你的密码&amp;#39;; \q exit </description>
+    </item>
+    
+    <item>
+      <title>Docker PostgreSQL</title>
+      <link>https://www.jiangjunjie.cn/posts/docker-postgresql/</link>
+      <pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/docker-postgresql/</guid>
+      <description>start postgresql 13 and pgadmin4 5.1 in docker,use ~/postgresql/data to persist data docker-compose.yml
+version: &amp;#39;3.1&amp;#39; services: postgresql: image: postgres:13 volumes: - ~/postgresql/data:/var/lib/postgresql/data ports: - 5432:5432 restart: always environment: POSTGRES_PASSWORD: {password} pgadmin4: image: dpage/pgadmin4:5.1 ports: - 80:80 restart: always environment: PGADMIN_DEFAULT_EMAIL: {email} PGADMIN_DEFAULT_PASSWORD: {password} </description>
+    </item>
+    
+  </channel>
+</rss>

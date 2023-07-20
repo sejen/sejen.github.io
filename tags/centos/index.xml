@@ -1,3 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>centos on Jiang Jun Jie's Site</title><link>https://www.jiangjunjie.cn/tags/centos/</link><description>Recent content in centos on Jiang Jun Jie's Site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 30 Mar 2021 14:19:29 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/centos/index.xml" rel="self" type="application/rss+xml"/><item><title>Nginx</title><link>https://www.jiangjunjie.cn/2021/03/nginx/</link><pubDate>Tue, 30 Mar 2021 14:19:29 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/nginx/</guid><description>安装和配置Nginx容器 文件目录 /home/nginx/conf.d 用于存放配置文件 /home/nginx/cert 用于存放https证书 /home/nginx/html 用于存放网页文件 /home/nginx/logs 用于存放日志 运行nginx容器 docker run -d \ --name nginx --restart always</description></item><item><title>Install PostgreSQL in CentOS 7.4</title><link>https://www.jiangjunjie.cn/2021/03/install-postgresql-in-centos-7.4/</link><pubDate>Tue, 30 Mar 2021 14:04:08 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/install-postgresql-in-centos-7.4/</guid><description>进入PostgreSQL官网：https://www.postgresql.org/download/linux/redhat/ 选择软件版本</description></item><item><title>Install Gitlab CE in CentOS 7.4</title><link>https://www.jiangjunjie.cn/2021/03/install-gitlab-ce-in-centos-7.4/</link><pubDate>Wed, 17 Mar 2021 10:50:56 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/install-gitlab-ce-in-centos-7.4/</guid><description>Introduce Tell you how to install Gitlab CE(Community Edition) in CentOS 7.4 step by step.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>centos on Jiang Jun Jie&#39;s Site</title>
+    <link>https://www.jiangjunjie.cn/tags/centos/</link>
+    <description>Recent content in centos on Jiang Jun Jie&#39;s Site</description>
+    <image>
+      <title>Jiang Jun Jie&#39;s Site</title>
+      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
+      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Mar 2021 14:19:29 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nginx</title>
+      <link>https://www.jiangjunjie.cn/posts/nginx/</link>
+      <pubDate>Tue, 30 Mar 2021 14:19:29 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/nginx/</guid>
+      <description>安装和配置Nginx容器 文件目录 /home/nginx/conf.d 用于存放配置文件
+/home/nginx/cert 用于存放https证书
+/home/nginx/html 用于存放网页文件
+/home/nginx/logs 用于存放日志
+运行nginx容器 docker run -d \ --name nginx --restart always \ -p 80:80 -p 443:443 \ -e &amp;#34;TZ=Asia/Shanghai&amp;#34; \ -v /home/nginx/nginx.conf:/etc/nginx/nginx.conf \ -v /home/nginx/conf.d:/etc/nginx/conf.d \ -v /home/nginx/logs:/var/log/nginx \ -v /home/nginx/cert:/etc/nginx/cert \ -v /home/nginx/html:/usr/share/nginx/html \ nginx:alpine 配置nginx 这里使用Nginx反向代理访问后端服务，由于容器内部通信，因此需要使用容器的IP，也就是172.17.0.1。 在/home/nginx/conf.d创建一个{name}.conf的配置文件，文件内容如下 server { listen 80; server_name 域名/外网IP; index index.html; root /usr/share/nginx/html/{name}/dist; #dist上传的路径 # 避免访问出现 404 错误 location / { try_files $uri $uri/ @router; index index.</description>
+    </item>
+    
+    <item>
+      <title>Install PostgreSQL in CentOS 7.4</title>
+      <link>https://www.jiangjunjie.cn/posts/install-postgresql-in-centos-7.4/</link>
+      <pubDate>Tue, 30 Mar 2021 14:04:08 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/install-postgresql-in-centos-7.4/</guid>
+      <description> 进入PostgreSQL官网：https://www.postgresql.org/download/linux/redhat/ 选择软件版本和系统版本 在服务器上执行脚本，以CentOS7.4和PostgreSQL13为例 # Install the repository RPM: sudo yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm # Install PostgreSQL: sudo yum install -y postgresql13-server # Optionally initialize the database and enable automatic start: sudo /usr/pgsql-13/bin/postgresql-13-setup initdb sudo systemctl enable postgresql-13 sudo systemctl start postgresql-13 远程连接，密码配置 配置文件路径/var/lib/pgsql/13/data/pg_hba.conf。修改127.0.0.1/32为0.0.0.0/0 配置文件路径/var/lib/pgsql/13/data/postgresql.conf。修改listen_address=&amp;quot;*&amp;quot;,取消port=5432的注释 重启postgresql 配置防火墙，放行5432端口 sudo firewall-cmd --permanent --add-port=5432/tcp sudo firewall-cmd –reload 修改密码 su – postgres psql ALTER USER postgres WITH PASSWORD &amp;#39;这里输入你的密码&amp;#39;; \q exit </description>
+    </item>
+    
+    <item>
+      <title>Install Gitlab CE in CentOS 7.4</title>
+      <link>https://www.jiangjunjie.cn/posts/install-gitlab-ce-in-centos-7.4/</link>
+      <pubDate>Wed, 17 Mar 2021 10:50:56 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/install-gitlab-ce-in-centos-7.4/</guid>
+      <description>Introduce Tell you how to install Gitlab CE(Community Edition) in CentOS 7.4 step by step.
 Doc https://about.gitlab.com/install/?version=ce#centos-7
-Install # Prerequisite sudo yum install -y curl policycoreutils-python openssh-server openssh-clients perl sudo systemctl enable sshd sudo systemctl start sshd # Firewall setting sudo firewall-cmd --permanent --add-service=http sudo firewall-cmd --permanent --add-service=https sudo systemctl reload firewalld # Install Gitlab ce repo curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash # Install Gitlab CE and set EXTERNAL_URL(your ip or host,http or https) sudo EXTERNAL_URL=&amp;#34;http://192.</description></item></channel></rss>
+Install # Prerequisite sudo yum install -y curl policycoreutils-python openssh-server openssh-clients perl sudo systemctl enable sshd sudo systemctl start sshd # Firewall setting sudo firewall-cmd --permanent --add-service=http sudo firewall-cmd --permanent --add-service=https sudo systemctl reload firewalld # Install Gitlab ce repo curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash # Install Gitlab CE and set EXTERNAL_URL(your ip or host,http or https) sudo EXTERNAL_URL=&amp;#34;http://192.</description>
+    </item>
+    
+  </channel>
+</rss>

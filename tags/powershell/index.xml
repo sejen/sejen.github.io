@@ -1,1 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>powershell on Jiang Jun Jie's Site</title><link>https://www.jiangjunjie.cn/tags/powershell/</link><description>Recent content in powershell on Jiang Jun Jie's Site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 25 Mar 2021 14:08:02 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/powershell/index.xml" rel="self" type="application/rss+xml"/><item><title>Powershell</title><link>https://www.jiangjunjie.cn/2021/03/powershell/</link><pubDate>Thu, 25 Mar 2021 14:08:02 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/powershell/</guid><description>oh-my-posh # https://ohmyposh.dev/docs/installation Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease Get-PoshThemes code $profile Set-PoshPrompt -Theme paradox . $profile git clone https://github.com/powerline/fonts.git cd fonts ./install.ps1 Install-Module ZLocation -Scope CurrentUser; Import-Module ZLocation; Add-Content -Value &amp;#34;`r`n`r`nImport-Module ZLocation`r`n&amp;#34; -Encoding utf8 -Path $PROFILE.CurrentUserAllHosts</description></item><item><title>Vscode</title><link>https://www.jiangjunjie.cn/2021/03/vscode/</link><pubDate>Wed, 24 Mar 2021 14:54:33 +0800</pubDate><guid>https://www.jiangjunjie.cn/2021/03/vscode/</guid><description>Open Powershell core in Terminal # settings.json &amp;#34;terminal.integrated.shell.windows&amp;#34;: &amp;#34;{path to pwsh.exe}&amp;#34;,</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>powershell on Jiang Jun Jie&#39;s Site</title>
+    <link>https://www.jiangjunjie.cn/tags/powershell/</link>
+    <description>Recent content in powershell on Jiang Jun Jie&#39;s Site</description>
+    <image>
+      <title>Jiang Jun Jie&#39;s Site</title>
+      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
+      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 25 Mar 2021 14:08:02 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Powershell</title>
+      <link>https://www.jiangjunjie.cn/posts/powershell/</link>
+      <pubDate>Thu, 25 Mar 2021 14:08:02 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/powershell/</guid>
+      <description>oh-my-posh # https://ohmyposh.dev/docs/installation Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease Get-PoshThemes code $profile Set-PoshPrompt -Theme paradox . $profile git clone https://github.com/powerline/fonts.git cd fonts ./install.ps1 Install-Module ZLocation -Scope CurrentUser; Import-Module ZLocation; Add-Content -Value &amp;#34;`r`n`r`nImport-Module ZLocation`r`n&amp;#34; -Encoding utf8 -Path $PROFILE.CurrentUserAllHosts </description>
+    </item>
+    
+    <item>
+      <title>Vscode</title>
+      <link>https://www.jiangjunjie.cn/posts/vscode/</link>
+      <pubDate>Wed, 24 Mar 2021 14:54:33 +0800</pubDate>
+      
+      <guid>https://www.jiangjunjie.cn/posts/vscode/</guid>
+      <description>Open Powershell core in Terminal # settings.json &amp;#34;terminal.integrated.shell.windows&amp;#34;: &amp;#34;{path to pwsh.exe}&amp;#34;, </description>
+    </item>
+    
+  </channel>
+</rss>
