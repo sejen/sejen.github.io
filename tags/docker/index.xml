@@ -114,7 +114,7 @@ version: &amp;#39;3.1&amp;#39; services: mongodb: image: mongo:4.4 command: mong
       
       <guid>https://www.jiangjunjie.cn/posts/docker-mysql/</guid>
       <description>start mysql8 in docker,use ~/mysql/data to persist data docker-compose.yml
-version: &amp;#39;3.1&amp;#39; services: mysql: image: mysql:8 command: --default-authentication-plugin=mysql_native_password volumes: - ~/mysql/data:/var/lib/mysql ports: - 3306:3306 restart: always environment: MYSQL_ROOT_PASSWORD: {your password} TZ: Asia/Shanghai </description>
+version: &amp;#39;3.1&amp;#39; services: mysql: image: mysql:8 container_name: mysql command: --default-authentication-plugin=mysql_native_password volumes: - mysql-data:/var/lib/mysql ports: - 3306:3306 restart: always environment: MYSQL_ROOT_PASSWORD: {your password} TZ: Asia/Shanghai network_mode: bridge volumes: mysql-data: external: true </description>
     </item>
     
     <item>
@@ -154,7 +154,7 @@ version: &amp;#39;3.1&amp;#39; services: rabbitmq: image: rabbitmq:3.8.14-manage
       
       <guid>https://www.jiangjunjie.cn/posts/docker-redis/</guid>
       <description>start redis 6.2 in docker,use ~/redis/data to persist data docker-compose.yml
-version: &amp;#39;3.1&amp;#39; services: redis: image: redis:6.2 #command: redis-server --requirepass {password} command: redis-server /usr/local/etc/redis/redis.conf volumes: - ~/redis/redis.conf:/usr/local/etc/redis/redis.conf - ~/redis/data/:/data/ ports: - 6379:6379 restart: always redis.conf
+version: &amp;#39;3.1&amp;#39; services: redis: image: redis:latest container_name: redis command: redis-server --requirepass {password} --appendonly yes #command: redis-server /usr/local/etc/redis/redis.conf volumes: - ~/redis/redis.conf:/usr/local/etc/redis/redis.conf - redis-data:/data ports: - 6379:6379 restart: always network_mode: bridge volumes: redis-data: external: true redis.conf
 requirepass {password} appendonly yes daemonize no </description>
     </item>
     

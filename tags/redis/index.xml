@@ -19,7 +19,7 @@
       
       <guid>https://www.jiangjunjie.cn/posts/docker-redis/</guid>
       <description>start redis 6.2 in docker,use ~/redis/data to persist data docker-compose.yml
-version: &amp;#39;3.1&amp;#39; services: redis: image: redis:6.2 #command: redis-server --requirepass {password} command: redis-server /usr/local/etc/redis/redis.conf volumes: - ~/redis/redis.conf:/usr/local/etc/redis/redis.conf - ~/redis/data/:/data/ ports: - 6379:6379 restart: always redis.conf
+version: &amp;#39;3.1&amp;#39; services: redis: image: redis:latest container_name: redis command: redis-server --requirepass {password} --appendonly yes #command: redis-server /usr/local/etc/redis/redis.conf volumes: - ~/redis/redis.conf:/usr/local/etc/redis/redis.conf - redis-data:/data ports: - 6379:6379 restart: always network_mode: bridge volumes: redis-data: external: true redis.conf
 requirepass {password} appendonly yes daemonize no </description>
     </item>
     
