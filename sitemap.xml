@@ -2,328 +2,328 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.jiangjunjie.cn/</loc>
+    <loc>https://blog.smdipal.de/</loc>
+    <lastmod>2023-09-21T08:52:54+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/</loc>
+    <lastmod>2023-09-21T08:52:54+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/ruoyi/</loc>
     <lastmod>2023-07-20T16:05:00+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/</loc>
-    <lastmod>2023-07-20T16:05:00+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/ruoyi/</loc>
-    <lastmod>2023-07-20T16:05:00+08:00</lastmod>
-  </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker-aliyun-webdav/</loc>
+    <loc>https://blog.smdipal.de/posts/docker-aliyun-webdav/</loc>
     <lastmod>2023-05-30T16:01:44+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker-yapi/</loc>
+    <loc>https://blog.smdipal.de/posts/docker-yapi/</loc>
     <lastmod>2023-05-24T10:03:15+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/categories/</loc>
+    <loc>https://blog.smdipal.de/categories/</loc>
     <lastmod>2023-05-11T14:32:27+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/categories/dev/</loc>
+    <loc>https://blog.smdipal.de/categories/dev/</loc>
     <lastmod>2023-05-11T14:32:27+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/docker/</loc>
+    <loc>https://blog.smdipal.de/tags/docker/</loc>
     <lastmod>2023-05-11T14:32:27+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker-ffmpeg/</loc>
+    <loc>https://blog.smdipal.de/posts/docker-ffmpeg/</loc>
     <lastmod>2023-05-11T14:32:27+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/ffmpeg/</loc>
+    <loc>https://blog.smdipal.de/tags/ffmpeg/</loc>
     <lastmod>2023-05-11T14:32:27+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/</loc>
+    <loc>https://blog.smdipal.de/tags/</loc>
     <lastmod>2023-05-11T14:32:27+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/redisinsight/</loc>
+    <loc>https://blog.smdipal.de/posts/redisinsight/</loc>
     <lastmod>2023-04-25T14:04:47+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/penpot/</loc>
+    <loc>https://blog.smdipal.de/posts/penpot/</loc>
     <lastmod>2023-04-25T11:15:11+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/jenkins/</loc>
+    <loc>https://blog.smdipal.de/posts/jenkins/</loc>
     <lastmod>2023-04-25T11:14:09+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/hik-h5player/</loc>
+    <loc>https://blog.smdipal.de/posts/hik-h5player/</loc>
     <lastmod>2023-04-13T15:08:50+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/openwrt/</loc>
+    <loc>https://blog.smdipal.de/posts/openwrt/</loc>
     <lastmod>2023-04-10T11:01:57+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/glacnes/</loc>
+    <loc>https://blog.smdipal.de/posts/glacnes/</loc>
     <lastmod>2023-03-24T09:53:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/hddtemp/</loc>
+    <loc>https://blog.smdipal.de/posts/hddtemp/</loc>
     <lastmod>2023-03-24T09:49:01+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/html/</loc>
+    <loc>https://blog.smdipal.de/posts/html/</loc>
     <lastmod>2023-03-22T14:14:33+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/rpc_shutdown/</loc>
+    <loc>https://blog.smdipal.de/posts/rpc_shutdown/</loc>
     <lastmod>2023-02-03T11:11:27+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/hikvision/</loc>
+    <loc>https://blog.smdipal.de/posts/hikvision/</loc>
     <lastmod>2023-02-03T11:00:55+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/categories/devops/</loc>
+    <loc>https://blog.smdipal.de/categories/devops/</loc>
     <lastmod>2022-09-08T11:02:46+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker-elk/</loc>
+    <loc>https://blog.smdipal.de/posts/docker-elk/</loc>
     <lastmod>2022-09-08T11:02:46+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/elk/</loc>
+    <loc>https://blog.smdipal.de/tags/elk/</loc>
     <lastmod>2022-09-08T11:02:46+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker-geoserver/</loc>
+    <loc>https://blog.smdipal.de/posts/docker-geoserver/</loc>
     <lastmod>2022-09-08T10:54:53+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/geoserver/</loc>
+    <loc>https://blog.smdipal.de/tags/geoserver/</loc>
     <lastmod>2022-09-08T10:54:53+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker-osm/</loc>
+    <loc>https://blog.smdipal.de/posts/docker-osm/</loc>
     <lastmod>2022-09-08T10:53:13+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/osm/</loc>
+    <loc>https://blog.smdipal.de/tags/osm/</loc>
     <lastmod>2022-09-08T10:53:13+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/tile-server/</loc>
+    <loc>https://blog.smdipal.de/tags/tile-server/</loc>
     <lastmod>2022-09-08T10:53:13+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker-oracle11gr2/</loc>
+    <loc>https://blog.smdipal.de/posts/docker-oracle11gr2/</loc>
     <lastmod>2022-09-08T10:33:04+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/oracle/</loc>
+    <loc>https://blog.smdipal.de/tags/oracle/</loc>
     <lastmod>2022-09-08T10:33:04+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker-keycloak/</loc>
+    <loc>https://blog.smdipal.de/posts/docker-keycloak/</loc>
     <lastmod>2022-09-08T10:13:00+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/keycloak/</loc>
+    <loc>https://blog.smdipal.de/tags/keycloak/</loc>
     <lastmod>2022-09-08T10:13:00+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/nginx-issue/</loc>
+    <loc>https://blog.smdipal.de/posts/nginx-issue/</loc>
     <lastmod>2022-09-08T09:29:55+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/hik-camera/</loc>
+    <loc>https://blog.smdipal.de/posts/hik-camera/</loc>
     <lastmod>2022-09-06T16:36:25+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/java/</loc>
+    <loc>https://blog.smdipal.de/tags/java/</loc>
     <lastmod>2022-09-06T10:51:40+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/poi-tl/</loc>
+    <loc>https://blog.smdipal.de/posts/poi-tl/</loc>
     <lastmod>2022-09-06T10:51:40+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/word/</loc>
+    <loc>https://blog.smdipal.de/tags/word/</loc>
     <lastmod>2022-09-06T10:51:40+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/oracle/</loc>
+    <loc>https://blog.smdipal.de/posts/oracle/</loc>
     <lastmod>2022-09-06T10:49:26+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/hugo/</loc>
+    <loc>https://blog.smdipal.de/posts/hugo/</loc>
     <lastmod>2022-09-06T10:43:48+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/ubuntu-timezone/</loc>
+    <loc>https://blog.smdipal.de/posts/ubuntu-timezone/</loc>
     <lastmod>2021-10-15T08:37:36+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/k8s/</loc>
+    <loc>https://blog.smdipal.de/posts/k8s/</loc>
     <lastmod>2021-06-15T15:37:24+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/k8s/</loc>
+    <loc>https://blog.smdipal.de/tags/k8s/</loc>
     <lastmod>2021-06-15T15:37:24+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/kubernetes/</loc>
+    <loc>https://blog.smdipal.de/tags/kubernetes/</loc>
     <lastmod>2021-06-15T15:37:24+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/springboot/</loc>
+    <loc>https://blog.smdipal.de/tags/springboot/</loc>
     <lastmod>2021-06-15T15:18:34+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/swagger3/</loc>
+    <loc>https://blog.smdipal.de/posts/swagger3/</loc>
     <lastmod>2021-06-15T15:18:34+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/swagger3/</loc>
+    <loc>https://blog.smdipal.de/tags/swagger3/</loc>
     <lastmod>2021-06-15T15:18:34+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/logback/</loc>
+    <loc>https://blog.smdipal.de/tags/logback/</loc>
     <lastmod>2021-06-15T15:17:11+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/logback-spring/</loc>
+    <loc>https://blog.smdipal.de/posts/logback-spring/</loc>
     <lastmod>2021-06-15T15:17:11+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/springboot/</loc>
+    <loc>https://blog.smdipal.de/posts/springboot/</loc>
     <lastmod>2021-06-15T14:33:46+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/gradle/</loc>
+    <loc>https://blog.smdipal.de/tags/gradle/</loc>
     <lastmod>2021-06-15T14:08:59+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/springboot-grade/</loc>
+    <loc>https://blog.smdipal.de/posts/springboot-grade/</loc>
     <lastmod>2021-06-15T14:08:59+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/charles/</loc>
+    <loc>https://blog.smdipal.de/posts/charles/</loc>
     <lastmod>2021-04-02T10:02:00+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/charles/</loc>
+    <loc>https://blog.smdipal.de/tags/charles/</loc>
     <lastmod>2021-04-02T10:02:00+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/backend-deploy/</loc>
+    <loc>https://blog.smdipal.de/posts/backend-deploy/</loc>
     <lastmod>2021-03-30T14:29:03+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/frontend-deploy/</loc>
+    <loc>https://blog.smdipal.de/posts/frontend-deploy/</loc>
     <lastmod>2021-03-30T14:29:03+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/centos/</loc>
+    <loc>https://blog.smdipal.de/tags/centos/</loc>
     <lastmod>2021-03-30T14:19:29+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/nginx/</loc>
+    <loc>https://blog.smdipal.de/posts/nginx/</loc>
     <lastmod>2021-03-30T14:19:29+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/nginx/</loc>
+    <loc>https://blog.smdipal.de/tags/nginx/</loc>
     <lastmod>2021-03-30T14:19:29+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/install-postgresql-in-centos-7.4/</loc>
+    <loc>https://blog.smdipal.de/posts/install-postgresql-in-centos-7.4/</loc>
     <lastmod>2021-03-30T14:04:08+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/postgresql/</loc>
+    <loc>https://blog.smdipal.de/tags/postgresql/</loc>
     <lastmod>2021-03-30T14:04:08+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/deploy/</loc>
+    <loc>https://blog.smdipal.de/tags/deploy/</loc>
     <lastmod>2021-03-30T14:03:01+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/jar/</loc>
+    <loc>https://blog.smdipal.de/tags/jar/</loc>
     <lastmod>2021-03-30T14:03:01+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/use-docker-to-deploy-springboot-jar-/</loc>
+    <loc>https://blog.smdipal.de/posts/use-docker-to-deploy-springboot-jar-/</loc>
     <lastmod>2021-03-30T14:03:01+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/powershell/</loc>
+    <loc>https://blog.smdipal.de/posts/powershell/</loc>
     <lastmod>2021-03-25T14:08:02+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/powershell/</loc>
+    <loc>https://blog.smdipal.de/tags/powershell/</loc>
     <lastmod>2021-03-25T14:08:02+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/categories/win10/</loc>
+    <loc>https://blog.smdipal.de/categories/win10/</loc>
     <lastmod>2021-03-25T14:08:02+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/cas/</loc>
+    <loc>https://blog.smdipal.de/posts/cas/</loc>
     <lastmod>2021-03-25T13:55:38+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/cas/</loc>
+    <loc>https://blog.smdipal.de/tags/cas/</loc>
     <lastmod>2021-03-25T13:55:38+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/webchat/</loc>
+    <loc>https://blog.smdipal.de/tags/webchat/</loc>
     <lastmod>2021-03-25T10:47:08+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/wechat/</loc>
+    <loc>https://blog.smdipal.de/posts/wechat/</loc>
     <lastmod>2021-03-25T10:47:08+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/wepy/</loc>
+    <loc>https://blog.smdipal.de/tags/wepy/</loc>
     <lastmod>2021-03-25T10:47:08+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/scoop/</loc>
+    <loc>https://blog.smdipal.de/posts/scoop/</loc>
     <lastmod>2021-03-25T10:38:14+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/scoop/</loc>
+    <loc>https://blog.smdipal.de/tags/scoop/</loc>
     <lastmod>2021-03-25T10:38:14+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/cnpm/</loc>
+    <loc>https://blog.smdipal.de/tags/cnpm/</loc>
     <lastmod>2021-03-25T09:50:59+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/node/</loc>
+    <loc>https://blog.smdipal.de/tags/node/</loc>
     <lastmod>2021-03-25T09:50:59+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/nodejs/</loc>
+    <loc>https://blog.smdipal.de/posts/nodejs/</loc>
     <lastmod>2021-03-25T09:50:59+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/npm/</loc>
+    <loc>https://blog.smdipal.de/tags/npm/</loc>
     <lastmod>2021-03-25T09:50:59+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/git/</loc>
+    <loc>https://blog.smdipal.de/posts/git/</loc>
     <lastmod>2021-03-25T09:50:39+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/git/</loc>
+    <loc>https://blog.smdipal.de/tags/git/</loc>
     <lastmod>2021-03-25T09:50:39+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/conda/</loc>
+    <loc>https://blog.smdipal.de/posts/conda/</loc>
     <lastmod>2021-03-25T09:50:27+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/conda/</loc>
+    <loc>https://blog.smdipal.de/tags/conda/</loc>
     <lastmod>2021-03-25T09:50:27+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/python/</loc>
+    <loc>https://blog.smdipal.de/tags/python/</loc>
     <lastmod>2021-03-25T09:50:27+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/win10/</loc>
+    <loc>https://blog.smdipal.de/posts/win10/</loc>
     <lastmod>2021-03-24T15:03:44+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker-mongodb/</loc>
+    <loc>https://blog.smdipal.de/posts/docker-mongodb/</loc>
     <lastmod>2021-03-24T14:57:02+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker-mysql/</loc>
+    <loc>https://blog.smdipal.de/posts/docker-mysql/</loc>
     <lastmod>2021-03-24T14:57:02+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker-pgadmin4/</loc>
+    <loc>https://blog.smdipal.de/posts/docker-pgadmin4/</loc>
     <lastmod>2021-03-24T14:57:02+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker-postgresql/</loc>
+    <loc>https://blog.smdipal.de/posts/docker-postgresql/</loc>
     <lastmod>2021-03-24T14:57:02+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker-rabbitmq/</loc>
+    <loc>https://blog.smdipal.de/posts/docker-rabbitmq/</loc>
     <lastmod>2021-03-24T14:57:02+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker-redis/</loc>
+    <loc>https://blog.smdipal.de/posts/docker-redis/</loc>
     <lastmod>2021-03-24T14:57:02+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/mongodb/</loc>
+    <loc>https://blog.smdipal.de/tags/mongodb/</loc>
     <lastmod>2021-03-24T14:57:02+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/mysql/</loc>
+    <loc>https://blog.smdipal.de/tags/mysql/</loc>
     <lastmod>2021-03-24T14:57:02+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/pgadmin4/</loc>
+    <loc>https://blog.smdipal.de/tags/pgadmin4/</loc>
     <lastmod>2021-03-24T14:57:02+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/rabbitmq/</loc>
+    <loc>https://blog.smdipal.de/tags/rabbitmq/</loc>
     <lastmod>2021-03-24T14:57:02+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/redis/</loc>
+    <loc>https://blog.smdipal.de/tags/redis/</loc>
     <lastmod>2021-03-24T14:57:02+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/vscode/</loc>
+    <loc>https://blog.smdipal.de/posts/vscode/</loc>
     <lastmod>2021-03-24T14:54:33+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/proxy/</loc>
+    <loc>https://blog.smdipal.de/posts/proxy/</loc>
     <lastmod>2021-03-24T14:50:15+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/ssh/</loc>
+    <loc>https://blog.smdipal.de/posts/ssh/</loc>
     <lastmod>2021-03-24T14:49:25+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/win10-login-error/</loc>
+    <loc>https://blog.smdipal.de/posts/win10-login-error/</loc>
     <lastmod>2021-03-24T14:47:25+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker-compose/</loc>
+    <loc>https://blog.smdipal.de/posts/docker-compose/</loc>
     <lastmod>2021-03-24T14:30:04+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/docker/</loc>
+    <loc>https://blog.smdipal.de/posts/docker/</loc>
     <lastmod>2021-03-17T13:58:53+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/gitlab/</loc>
+    <loc>https://blog.smdipal.de/tags/gitlab/</loc>
     <lastmod>2021-03-17T10:50:56+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/tags/hugo/</loc>
+    <loc>https://blog.smdipal.de/categories/hugo/</loc>
     <lastmod>2021-03-17T10:50:56+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/categories/hugo/</loc>
+    <loc>https://blog.smdipal.de/tags/hugo/</loc>
     <lastmod>2021-03-17T10:50:56+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/install-gitlab-ce-in-centos-7.4/</loc>
+    <loc>https://blog.smdipal.de/posts/install-gitlab-ce-in-centos-7.4/</loc>
     <lastmod>2021-03-17T10:50:56+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/posts/static-site-using-hugo/</loc>
+    <loc>https://blog.smdipal.de/posts/static-site-using-hugo/</loc>
     <lastmod>2021-03-17T10:50:56+08:00</lastmod>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/archives/</loc>
+    <loc>https://blog.smdipal.de/archives/</loc>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/search/</loc>
+    <loc>https://blog.smdipal.de/search/</loc>
   </url><url>
-    <loc>https://www.jiangjunjie.cn/series/</loc>
+    <loc>https://blog.smdipal.de/series/</loc>
   </url>
 </urlset>

@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>cnpm on Jiang Jun Jie&#39;s Site</title>
-    <link>https://www.jiangjunjie.cn/tags/cnpm/</link>
-    <description>Recent content in cnpm on Jiang Jun Jie&#39;s Site</description>
+    <title>Cnpm on Jiang Jun Jie&#39;s Site</title>
+    <link>https://blog.smdipal.de/tags/cnpm/</link>
+    <description>Recent content in Cnpm on Jiang Jun Jie&#39;s Site</description>
     <image>
       <title>Jiang Jun Jie&#39;s Site</title>
-      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
-      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+      <url>https://blog.smdipal.de/papermod-cover.png</url>
+      <link>https://blog.smdipal.de/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Mar 2021 09:50:59 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/cnpm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Mar 2021 09:50:59 +0800</lastBuildDate>
+    <atom:link href="https://blog.smdipal.de/tags/cnpm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>nodeJS</title>
-      <link>https://www.jiangjunjie.cn/posts/nodejs/</link>
+      <link>https://blog.smdipal.de/posts/nodejs/</link>
       <pubDate>Thu, 25 Mar 2021 09:50:59 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/posts/nodejs/</guid>
-      <description>nvm setting nvm ls nvm ls available nvm install {version} nvm use {version} npm setting npm config set registry https://registry.npm.taobao.org npm config set sass_binary_site &amp;#34;https://npm.taobao.org/mirrors/node-sass&amp;#34; npm config list cnpm settting npm install -g cnpm --registry=https://registry.npm.taobao.org error MSBUILD : error MSB4132: 无法识别工具版本“2.0”。可用的工具版本为 &amp;ldquo;4.0&amp;rdquo;。 npm install --msvs_version 2015 </description>
+      <guid>https://blog.smdipal.de/posts/nodejs/</guid>
+      <description>&lt;h1 id=&#34;nvm-setting&#34;&gt;nvm setting&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nvm ls
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nvm ls available
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nvm install &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;version&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nvm use &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;version&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;npm-setting&#34;&gt;npm setting&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm config &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; registry https://registry.npm.taobao.org
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm config &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; sass_binary_site &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://npm.taobao.org/mirrors/node-sass&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm config list
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;cnpm-settting&#34;&gt;cnpm settting&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm install -g cnpm --registry&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;https://registry.npm.taobao.org
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;error&#34;&gt;error&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;MSBUILD : error MSB4132: 无法识别工具版本“2.0”。可用的工具版本为 &amp;ldquo;4.0&amp;rdquo;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm install --msvs_version &lt;span class=&#34;m&#34;&gt;2015&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
   </channel>
 </rss>

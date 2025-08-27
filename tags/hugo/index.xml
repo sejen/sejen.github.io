@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>hugo on Jiang Jun Jie&#39;s Site</title>
-    <link>https://www.jiangjunjie.cn/tags/hugo/</link>
-    <description>Recent content in hugo on Jiang Jun Jie&#39;s Site</description>
+    <title>Hugo on Jiang Jun Jie&#39;s Site</title>
+    <link>https://blog.smdipal.de/tags/hugo/</link>
+    <description>Recent content in Hugo on Jiang Jun Jie&#39;s Site</description>
     <image>
       <title>Jiang Jun Jie&#39;s Site</title>
-      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
-      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+      <url>https://blog.smdipal.de/papermod-cover.png</url>
+      <link>https://blog.smdipal.de/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Mar 2021 10:50:56 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Mar 2021 10:50:56 +0800</lastBuildDate>
+    <atom:link href="https://blog.smdipal.de/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Static Site using Hugo</title>
-      <link>https://www.jiangjunjie.cn/posts/static-site-using-hugo/</link>
+      <link>https://blog.smdipal.de/posts/static-site-using-hugo/</link>
       <pubDate>Wed, 17 Mar 2021 10:50:56 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/posts/static-site-using-hugo/</guid>
-      <description>Install Hugo # macos brew install hugo # windows using scoop scoop install hugo Deploy to Middleware hugo --minify Then, upload files in the public folder to middleware folder(eg. html folder in nginx)
-Deploy to Github Pages Coming soon&amp;hellip;</description>
+      <guid>https://blog.smdipal.de/posts/static-site-using-hugo/</guid>
+      <description>&lt;h1 id=&#34;install-hugo&#34;&gt;Install Hugo&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# macos&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# windows using scoop&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;deploy-to-middleware&#34;&gt;Deploy to Middleware&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo --minify
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then, upload files in the &lt;em&gt;public&lt;/em&gt; folder to middleware folder(eg. html folder in nginx)&lt;/p&gt;
+&lt;h1 id=&#34;deploy-to-github-pages&#34;&gt;Deploy to Github Pages&lt;/h1&gt;
+&lt;p&gt;Coming soon&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

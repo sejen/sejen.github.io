@@ -1,25 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>keycloak on Jiang Jun Jie&#39;s Site</title>
-    <link>https://www.jiangjunjie.cn/tags/keycloak/</link>
-    <description>Recent content in keycloak on Jiang Jun Jie&#39;s Site</description>
+    <title>Keycloak on Jiang Jun Jie&#39;s Site</title>
+    <link>https://blog.smdipal.de/tags/keycloak/</link>
+    <description>Recent content in Keycloak on Jiang Jun Jie&#39;s Site</description>
     <image>
       <title>Jiang Jun Jie&#39;s Site</title>
-      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
-      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+      <url>https://blog.smdipal.de/papermod-cover.png</url>
+      <link>https://blog.smdipal.de/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Sep 2022 10:13:00 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/keycloak/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Sep 2022 10:13:00 +0800</lastBuildDate>
+    <atom:link href="https://blog.smdipal.de/tags/keycloak/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker Keycloak</title>
-      <link>https://www.jiangjunjie.cn/posts/docker-keycloak/</link>
+      <link>https://blog.smdipal.de/posts/docker-keycloak/</link>
       <pubDate>Thu, 08 Sep 2022 10:13:00 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/posts/docker-keycloak/</guid>
-      <description>version: &amp;#39;3&amp;#39; volumes: postgres_data: driver: local services: postgres: image: postgres volumes: - postgres_data:/var/lib/postgresql/data environment: POSTGRES_DB: keycloak POSTGRES_USER: keycloak POSTGRES_PASSWORD: {db password} keycloak: image: quay.io/keycloak/keycloak:legacy environment: DB_VENDOR: POSTGRES DB_ADDR: postgres DB_DATABASE: keycloak DB_USER: keycloak DB_SCHEMA: public DB_PASSWORD: {db password} KEYCLOAK_USER: admin KEYCLOAK_PASSWORD: {password} # Uncomment the line below if you want to specify JDBC parameters. The parameter below is just an example, and it shouldn&amp;#39;t be used in production without knowledge. It is highly recommended that you read the PostgreSQL JDBC driver documentation in order to use it.</description>
+      <guid>https://blog.smdipal.de/posts/docker-keycloak/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;version: &lt;span class=&#34;s1&#34;&gt;&amp;#39;3&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;volumes:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  postgres_data:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      driver: &lt;span class=&#34;nb&#34;&gt;local&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;services:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  postgres:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      image: postgres
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      volumes:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        - postgres_data:/var/lib/postgresql/data
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      environment:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        POSTGRES_DB: keycloak
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        POSTGRES_USER: keycloak
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        POSTGRES_PASSWORD: &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;db password&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  keycloak:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      image: quay.io/keycloak/keycloak:legacy
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      environment:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        DB_VENDOR: POSTGRES
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        DB_ADDR: postgres
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        DB_DATABASE: keycloak
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        DB_USER: keycloak
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        DB_SCHEMA: public
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        DB_PASSWORD: &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;db password&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        KEYCLOAK_USER: admin
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        KEYCLOAK_PASSWORD: &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;password&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c1&#34;&gt;# Uncomment the line below if you want to specify JDBC parameters. The parameter below is just an example, and it shouldn&amp;#39;t be used in production without knowledge. It is highly recommended that you read the PostgreSQL JDBC driver documentation in order to use it.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c1&#34;&gt;#JDBC_PARAMS: &amp;#34;ssl=true&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      ports:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        - 8888:8080
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      depends_on:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        - postgres
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
   </channel>
 </rss>

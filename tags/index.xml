@@ -2,375 +2,296 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Jiang Jun Jie&#39;s Site</title>
-    <link>https://www.jiangjunjie.cn/tags/</link>
+    <link>https://blog.smdipal.de/tags/</link>
     <description>Recent content in Tags on Jiang Jun Jie&#39;s Site</description>
     <image>
       <title>Jiang Jun Jie&#39;s Site</title>
-      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
-      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+      <url>https://blog.smdipal.de/papermod-cover.png</url>
+      <link>https://blog.smdipal.de/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 May 2023 14:32:27 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 May 2023 14:32:27 +0800</lastBuildDate>
+    <atom:link href="https://blog.smdipal.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>docker</title>
-      <link>https://www.jiangjunjie.cn/tags/docker/</link>
+      <title>Docker</title>
+      <link>https://blog.smdipal.de/tags/docker/</link>
       <pubDate>Thu, 11 May 2023 14:32:27 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/docker/</guid>
+      <guid>https://blog.smdipal.de/tags/docker/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ffmpeg</title>
-      <link>https://www.jiangjunjie.cn/tags/ffmpeg/</link>
+      <title>Ffmpeg</title>
+      <link>https://blog.smdipal.de/tags/ffmpeg/</link>
       <pubDate>Thu, 11 May 2023 14:32:27 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/ffmpeg/</guid>
+      <guid>https://blog.smdipal.de/tags/ffmpeg/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ELK</title>
-      <link>https://www.jiangjunjie.cn/tags/elk/</link>
+      <link>https://blog.smdipal.de/tags/elk/</link>
       <pubDate>Thu, 08 Sep 2022 11:02:46 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/elk/</guid>
+      <guid>https://blog.smdipal.de/tags/elk/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>geoserver</title>
-      <link>https://www.jiangjunjie.cn/tags/geoserver/</link>
+      <title>Geoserver</title>
+      <link>https://blog.smdipal.de/tags/geoserver/</link>
       <pubDate>Thu, 08 Sep 2022 10:54:53 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/geoserver/</guid>
+      <guid>https://blog.smdipal.de/tags/geoserver/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>osm</title>
-      <link>https://www.jiangjunjie.cn/tags/osm/</link>
+      <title>Osm</title>
+      <link>https://blog.smdipal.de/tags/osm/</link>
       <pubDate>Thu, 08 Sep 2022 10:53:13 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/osm/</guid>
+      <guid>https://blog.smdipal.de/tags/osm/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tile-server</title>
-      <link>https://www.jiangjunjie.cn/tags/tile-server/</link>
+      <title>Tile-Server</title>
+      <link>https://blog.smdipal.de/tags/tile-server/</link>
       <pubDate>Thu, 08 Sep 2022 10:53:13 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/tile-server/</guid>
+      <guid>https://blog.smdipal.de/tags/tile-server/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>oracle</title>
-      <link>https://www.jiangjunjie.cn/tags/oracle/</link>
+      <title>Oracle</title>
+      <link>https://blog.smdipal.de/tags/oracle/</link>
       <pubDate>Thu, 08 Sep 2022 10:33:04 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/oracle/</guid>
+      <guid>https://blog.smdipal.de/tags/oracle/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>keycloak</title>
-      <link>https://www.jiangjunjie.cn/tags/keycloak/</link>
+      <title>Keycloak</title>
+      <link>https://blog.smdipal.de/tags/keycloak/</link>
       <pubDate>Thu, 08 Sep 2022 10:13:00 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/keycloak/</guid>
+      <guid>https://blog.smdipal.de/tags/keycloak/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>java</title>
-      <link>https://www.jiangjunjie.cn/tags/java/</link>
+      <title>Java</title>
+      <link>https://blog.smdipal.de/tags/java/</link>
       <pubDate>Tue, 06 Sep 2022 10:51:40 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/java/</guid>
+      <guid>https://blog.smdipal.de/tags/java/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>word</title>
-      <link>https://www.jiangjunjie.cn/tags/word/</link>
+      <title>Word</title>
+      <link>https://blog.smdipal.de/tags/word/</link>
       <pubDate>Tue, 06 Sep 2022 10:51:40 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/word/</guid>
+      <guid>https://blog.smdipal.de/tags/word/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>k8s</title>
-      <link>https://www.jiangjunjie.cn/tags/k8s/</link>
+      <title>K8s</title>
+      <link>https://blog.smdipal.de/tags/k8s/</link>
       <pubDate>Tue, 15 Jun 2021 15:37:24 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/k8s/</guid>
+      <guid>https://blog.smdipal.de/tags/k8s/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kubernetes</title>
-      <link>https://www.jiangjunjie.cn/tags/kubernetes/</link>
+      <title>Kubernetes</title>
+      <link>https://blog.smdipal.de/tags/kubernetes/</link>
       <pubDate>Tue, 15 Jun 2021 15:37:24 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/kubernetes/</guid>
+      <guid>https://blog.smdipal.de/tags/kubernetes/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>springboot</title>
-      <link>https://www.jiangjunjie.cn/tags/springboot/</link>
+      <title>Springboot</title>
+      <link>https://blog.smdipal.de/tags/springboot/</link>
       <pubDate>Tue, 15 Jun 2021 15:18:34 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/springboot/</guid>
+      <guid>https://blog.smdipal.de/tags/springboot/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>swagger3</title>
-      <link>https://www.jiangjunjie.cn/tags/swagger3/</link>
+      <title>Swagger3</title>
+      <link>https://blog.smdipal.de/tags/swagger3/</link>
       <pubDate>Tue, 15 Jun 2021 15:18:34 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/swagger3/</guid>
+      <guid>https://blog.smdipal.de/tags/swagger3/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>logback</title>
-      <link>https://www.jiangjunjie.cn/tags/logback/</link>
+      <title>Logback</title>
+      <link>https://blog.smdipal.de/tags/logback/</link>
       <pubDate>Tue, 15 Jun 2021 15:17:11 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/logback/</guid>
+      <guid>https://blog.smdipal.de/tags/logback/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gradle</title>
-      <link>https://www.jiangjunjie.cn/tags/gradle/</link>
+      <title>Gradle</title>
+      <link>https://blog.smdipal.de/tags/gradle/</link>
       <pubDate>Tue, 15 Jun 2021 14:08:59 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/gradle/</guid>
+      <guid>https://blog.smdipal.de/tags/gradle/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>charles</title>
-      <link>https://www.jiangjunjie.cn/tags/charles/</link>
+      <title>Charles</title>
+      <link>https://blog.smdipal.de/tags/charles/</link>
       <pubDate>Fri, 02 Apr 2021 10:02:00 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/charles/</guid>
+      <guid>https://blog.smdipal.de/tags/charles/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>centos</title>
-      <link>https://www.jiangjunjie.cn/tags/centos/</link>
+      <title>Centos</title>
+      <link>https://blog.smdipal.de/tags/centos/</link>
       <pubDate>Tue, 30 Mar 2021 14:19:29 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/centos/</guid>
+      <guid>https://blog.smdipal.de/tags/centos/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nginx</title>
-      <link>https://www.jiangjunjie.cn/tags/nginx/</link>
+      <title>Nginx</title>
+      <link>https://blog.smdipal.de/tags/nginx/</link>
       <pubDate>Tue, 30 Mar 2021 14:19:29 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/nginx/</guid>
+      <guid>https://blog.smdipal.de/tags/nginx/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>postgresql</title>
-      <link>https://www.jiangjunjie.cn/tags/postgresql/</link>
+      <title>Postgresql</title>
+      <link>https://blog.smdipal.de/tags/postgresql/</link>
       <pubDate>Tue, 30 Mar 2021 14:04:08 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/postgresql/</guid>
+      <guid>https://blog.smdipal.de/tags/postgresql/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>deploy</title>
-      <link>https://www.jiangjunjie.cn/tags/deploy/</link>
+      <title>Deploy</title>
+      <link>https://blog.smdipal.de/tags/deploy/</link>
       <pubDate>Tue, 30 Mar 2021 14:03:01 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/deploy/</guid>
+      <guid>https://blog.smdipal.de/tags/deploy/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>jar</title>
-      <link>https://www.jiangjunjie.cn/tags/jar/</link>
+      <title>Jar</title>
+      <link>https://blog.smdipal.de/tags/jar/</link>
       <pubDate>Tue, 30 Mar 2021 14:03:01 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/jar/</guid>
+      <guid>https://blog.smdipal.de/tags/jar/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>powershell</title>
-      <link>https://www.jiangjunjie.cn/tags/powershell/</link>
+      <title>Powershell</title>
+      <link>https://blog.smdipal.de/tags/powershell/</link>
       <pubDate>Thu, 25 Mar 2021 14:08:02 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/powershell/</guid>
+      <guid>https://blog.smdipal.de/tags/powershell/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cas</title>
-      <link>https://www.jiangjunjie.cn/tags/cas/</link>
+      <title>Cas</title>
+      <link>https://blog.smdipal.de/tags/cas/</link>
       <pubDate>Thu, 25 Mar 2021 13:55:38 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/cas/</guid>
+      <guid>https://blog.smdipal.de/tags/cas/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>webchat</title>
-      <link>https://www.jiangjunjie.cn/tags/webchat/</link>
+      <title>Webchat</title>
+      <link>https://blog.smdipal.de/tags/webchat/</link>
       <pubDate>Thu, 25 Mar 2021 10:47:08 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/webchat/</guid>
+      <guid>https://blog.smdipal.de/tags/webchat/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>wepy</title>
-      <link>https://www.jiangjunjie.cn/tags/wepy/</link>
+      <title>Wepy</title>
+      <link>https://blog.smdipal.de/tags/wepy/</link>
       <pubDate>Thu, 25 Mar 2021 10:47:08 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/wepy/</guid>
+      <guid>https://blog.smdipal.de/tags/wepy/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>scoop</title>
-      <link>https://www.jiangjunjie.cn/tags/scoop/</link>
+      <title>Scoop</title>
+      <link>https://blog.smdipal.de/tags/scoop/</link>
       <pubDate>Thu, 25 Mar 2021 10:38:14 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/scoop/</guid>
+      <guid>https://blog.smdipal.de/tags/scoop/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cnpm</title>
-      <link>https://www.jiangjunjie.cn/tags/cnpm/</link>
+      <title>Cnpm</title>
+      <link>https://blog.smdipal.de/tags/cnpm/</link>
       <pubDate>Thu, 25 Mar 2021 09:50:59 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/cnpm/</guid>
+      <guid>https://blog.smdipal.de/tags/cnpm/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>node</title>
-      <link>https://www.jiangjunjie.cn/tags/node/</link>
+      <title>Node</title>
+      <link>https://blog.smdipal.de/tags/node/</link>
       <pubDate>Thu, 25 Mar 2021 09:50:59 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/node/</guid>
+      <guid>https://blog.smdipal.de/tags/node/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>npm</title>
-      <link>https://www.jiangjunjie.cn/tags/npm/</link>
+      <title>Npm</title>
+      <link>https://blog.smdipal.de/tags/npm/</link>
       <pubDate>Thu, 25 Mar 2021 09:50:59 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/npm/</guid>
+      <guid>https://blog.smdipal.de/tags/npm/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>git</title>
-      <link>https://www.jiangjunjie.cn/tags/git/</link>
+      <title>Git</title>
+      <link>https://blog.smdipal.de/tags/git/</link>
       <pubDate>Thu, 25 Mar 2021 09:50:39 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/git/</guid>
+      <guid>https://blog.smdipal.de/tags/git/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>conda</title>
-      <link>https://www.jiangjunjie.cn/tags/conda/</link>
+      <title>Conda</title>
+      <link>https://blog.smdipal.de/tags/conda/</link>
       <pubDate>Thu, 25 Mar 2021 09:50:27 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/conda/</guid>
+      <guid>https://blog.smdipal.de/tags/conda/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>python</title>
-      <link>https://www.jiangjunjie.cn/tags/python/</link>
+      <title>Python</title>
+      <link>https://blog.smdipal.de/tags/python/</link>
       <pubDate>Thu, 25 Mar 2021 09:50:27 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/python/</guid>
+      <guid>https://blog.smdipal.de/tags/python/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mongodb</title>
-      <link>https://www.jiangjunjie.cn/tags/mongodb/</link>
+      <title>Mongodb</title>
+      <link>https://blog.smdipal.de/tags/mongodb/</link>
       <pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/mongodb/</guid>
+      <guid>https://blog.smdipal.de/tags/mongodb/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mysql</title>
-      <link>https://www.jiangjunjie.cn/tags/mysql/</link>
+      <title>Mysql</title>
+      <link>https://blog.smdipal.de/tags/mysql/</link>
       <pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/mysql/</guid>
+      <guid>https://blog.smdipal.de/tags/mysql/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pgadmin4</title>
-      <link>https://www.jiangjunjie.cn/tags/pgadmin4/</link>
+      <title>Pgadmin4</title>
+      <link>https://blog.smdipal.de/tags/pgadmin4/</link>
       <pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/pgadmin4/</guid>
+      <guid>https://blog.smdipal.de/tags/pgadmin4/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rabbitmq</title>
-      <link>https://www.jiangjunjie.cn/tags/rabbitmq/</link>
+      <title>Rabbitmq</title>
+      <link>https://blog.smdipal.de/tags/rabbitmq/</link>
       <pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/rabbitmq/</guid>
+      <guid>https://blog.smdipal.de/tags/rabbitmq/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>redis</title>
-      <link>https://www.jiangjunjie.cn/tags/redis/</link>
+      <title>Redis</title>
+      <link>https://blog.smdipal.de/tags/redis/</link>
       <pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/redis/</guid>
+      <guid>https://blog.smdipal.de/tags/redis/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gitlab</title>
-      <link>https://www.jiangjunjie.cn/tags/gitlab/</link>
+      <title>Gitlab</title>
+      <link>https://blog.smdipal.de/tags/gitlab/</link>
       <pubDate>Wed, 17 Mar 2021 10:50:56 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/gitlab/</guid>
+      <guid>https://blog.smdipal.de/tags/gitlab/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hugo</title>
-      <link>https://www.jiangjunjie.cn/tags/hugo/</link>
+      <title>Hugo</title>
+      <link>https://blog.smdipal.de/tags/hugo/</link>
       <pubDate>Wed, 17 Mar 2021 10:50:56 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/tags/hugo/</guid>
+      <guid>https://blog.smdipal.de/tags/hugo/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

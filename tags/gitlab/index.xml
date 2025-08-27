@@ -1,27 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>gitlab on Jiang Jun Jie&#39;s Site</title>
-    <link>https://www.jiangjunjie.cn/tags/gitlab/</link>
-    <description>Recent content in gitlab on Jiang Jun Jie&#39;s Site</description>
+    <title>Gitlab on Jiang Jun Jie&#39;s Site</title>
+    <link>https://blog.smdipal.de/tags/gitlab/</link>
+    <description>Recent content in Gitlab on Jiang Jun Jie&#39;s Site</description>
     <image>
       <title>Jiang Jun Jie&#39;s Site</title>
-      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
-      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+      <url>https://blog.smdipal.de/papermod-cover.png</url>
+      <link>https://blog.smdipal.de/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Mar 2021 10:50:56 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/gitlab/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Mar 2021 10:50:56 +0800</lastBuildDate>
+    <atom:link href="https://blog.smdipal.de/tags/gitlab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install Gitlab CE in CentOS 7.4</title>
-      <link>https://www.jiangjunjie.cn/posts/install-gitlab-ce-in-centos-7.4/</link>
+      <link>https://blog.smdipal.de/posts/install-gitlab-ce-in-centos-7.4/</link>
       <pubDate>Wed, 17 Mar 2021 10:50:56 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/posts/install-gitlab-ce-in-centos-7.4/</guid>
-      <description>Introduce Tell you how to install Gitlab CE(Community Edition) in CentOS 7.4 step by step.
-Doc https://about.gitlab.com/install/?version=ce#centos-7
-Install # Prerequisite sudo yum install -y curl policycoreutils-python openssh-server openssh-clients perl sudo systemctl enable sshd sudo systemctl start sshd # Firewall setting sudo firewall-cmd --permanent --add-service=http sudo firewall-cmd --permanent --add-service=https sudo systemctl reload firewalld # Install Gitlab ce repo curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash # Install Gitlab CE and set EXTERNAL_URL(your ip or host,http or https) sudo EXTERNAL_URL=&amp;#34;http://192.</description>
+      <guid>https://blog.smdipal.de/posts/install-gitlab-ce-in-centos-7.4/</guid>
+      <description>&lt;h1 id=&#34;introduce&#34;&gt;Introduce&lt;/h1&gt;
+&lt;p&gt;Tell you how to install Gitlab CE(Community Edition) in CentOS 7.4 step by step.&lt;/p&gt;
+&lt;h1 id=&#34;doc&#34;&gt;Doc&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://about.gitlab.com/install/?version=ce#centos-7&#34;&gt;https://about.gitlab.com/install/?version=ce#centos-7&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;install&#34;&gt;Install&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Prerequisite&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo yum install -y curl policycoreutils-python openssh-server openssh-clients perl 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo systemctl &lt;span class=&#34;nb&#34;&gt;enable&lt;/span&gt; sshd 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo systemctl start sshd 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Firewall setting&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo firewall-cmd --permanent --add-service&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;http 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo firewall-cmd --permanent --add-service&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;https 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo systemctl reload firewalld 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Install Gitlab ce repo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; sudo bash 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Install Gitlab CE and set EXTERNAL_URL(your ip or host,http or https)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo &lt;span class=&#34;nv&#34;&gt;EXTERNAL_URL&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;http://192.168.10.198&amp;#34;&lt;/span&gt; yum install -y gitlab-ce 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;
+&lt;p&gt;Go to http://192.168.10.198(your ip or host), set your root password when you first login&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

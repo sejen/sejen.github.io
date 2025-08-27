@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ffmpeg on Jiang Jun Jie&#39;s Site</title>
-    <link>https://www.jiangjunjie.cn/tags/ffmpeg/</link>
-    <description>Recent content in ffmpeg on Jiang Jun Jie&#39;s Site</description>
+    <title>Ffmpeg on Jiang Jun Jie&#39;s Site</title>
+    <link>https://blog.smdipal.de/tags/ffmpeg/</link>
+    <description>Recent content in Ffmpeg on Jiang Jun Jie&#39;s Site</description>
     <image>
       <title>Jiang Jun Jie&#39;s Site</title>
-      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
-      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+      <url>https://blog.smdipal.de/papermod-cover.png</url>
+      <link>https://blog.smdipal.de/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 May 2023 14:32:27 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 May 2023 14:32:27 +0800</lastBuildDate>
+    <atom:link href="https://blog.smdipal.de/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker FFmpeg</title>
-      <link>https://www.jiangjunjie.cn/posts/docker-ffmpeg/</link>
+      <link>https://blog.smdipal.de/posts/docker-ffmpeg/</link>
       <pubDate>Thu, 11 May 2023 14:32:27 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/posts/docker-ffmpeg/</guid>
-      <description>Dockerfile FROM ubuntu:22.04 RUN apt-get update &amp;amp;&amp;amp; apt-get install -y ca-certificates RUN mv /etc/apt/sources.list /etc/apt/sources.list.bak RUN echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy main restricted universe multiverse&amp;#34; &amp;gt;&amp;gt; /etc/apt/sources.list RUN echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse&amp;#34; &amp;gt;&amp;gt; /etc/apt/sources.list RUN echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse&amp;#34; &amp;gt;&amp;gt; /etc/apt/sources.list RUN echo &amp;#34;deb http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse&amp;#34; &amp;gt;&amp;gt; /etc/apt/sources.list RUN apt-get update &amp;amp;&amp;amp; apt-get install -y wget java-common RUN wget https://corretto.</description>
+      <guid>https://blog.smdipal.de/posts/docker-ffmpeg/</guid>
+      <description>&lt;h1 id=&#34;dockerfile&#34;&gt;Dockerfile&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;FROM ubuntu:22.04
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;RUN apt-get update &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt-get install -y ca-certificates
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;RUN mv /etc/apt/sources.list /etc/apt/sources.list.bak
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;RUN &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy main restricted universe multiverse&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; /etc/apt/sources.list
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;RUN &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; /etc/apt/sources.list
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;RUN &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; /etc/apt/sources.list
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;RUN &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;deb http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; /etc/apt/sources.list
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;RUN apt-get update &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt-get install -y wget java-common
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;RUN wget https://corretto.aws/downloads/resources/17.0.6.10.1/java-17-amazon-corretto-jdk_17.0.6.10-1_amd64.deb
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;RUN dpkg --install java-17-amazon-corretto-jdk_17.0.6.10-1_amd64.deb
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;RUN apt-get install -y ffmpeg
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;build&#34;&gt;Build&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;sudo docker build -t corretto17-ffmpeg:1.0 .&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

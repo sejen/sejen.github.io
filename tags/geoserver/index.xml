@@ -1,25 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>geoserver on Jiang Jun Jie&#39;s Site</title>
-    <link>https://www.jiangjunjie.cn/tags/geoserver/</link>
-    <description>Recent content in geoserver on Jiang Jun Jie&#39;s Site</description>
+    <title>Geoserver on Jiang Jun Jie&#39;s Site</title>
+    <link>https://blog.smdipal.de/tags/geoserver/</link>
+    <description>Recent content in Geoserver on Jiang Jun Jie&#39;s Site</description>
     <image>
       <title>Jiang Jun Jie&#39;s Site</title>
-      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
-      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+      <url>https://blog.smdipal.de/papermod-cover.png</url>
+      <link>https://blog.smdipal.de/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Sep 2022 10:54:53 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/geoserver/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Sep 2022 10:54:53 +0800</lastBuildDate>
+    <atom:link href="https://blog.smdipal.de/tags/geoserver/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker GeoServer</title>
-      <link>https://www.jiangjunjie.cn/posts/docker-geoserver/</link>
+      <link>https://blog.smdipal.de/posts/docker-geoserver/</link>
       <pubDate>Thu, 08 Sep 2022 10:54:53 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/posts/docker-geoserver/</guid>
-      <description>version: &amp;#39;3.1&amp;#39; services: geoserver: image: geonode/geoserver:2.18.2 container_name: geoserver volumes: - /opt/geoserver/data:/geoserver_data/data ports: - 18080:8080 restart: always </description>
+      <guid>https://blog.smdipal.de/posts/docker-geoserver/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;version: &lt;span class=&#34;s1&#34;&gt;&amp;#39;3.1&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;services:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  geoserver:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    image: geonode/geoserver:2.18.2
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    container_name: geoserver
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    volumes:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      - /opt/geoserver/data:/geoserver_data/data
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ports:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      - 18080:8080
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    restart: always
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
   </channel>
 </rss>

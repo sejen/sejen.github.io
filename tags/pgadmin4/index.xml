@@ -1,36 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>pgadmin4 on Jiang Jun Jie&#39;s Site</title>
-    <link>https://www.jiangjunjie.cn/tags/pgadmin4/</link>
-    <description>Recent content in pgadmin4 on Jiang Jun Jie&#39;s Site</description>
+    <title>Pgadmin4 on Jiang Jun Jie&#39;s Site</title>
+    <link>https://blog.smdipal.de/tags/pgadmin4/</link>
+    <description>Recent content in Pgadmin4 on Jiang Jun Jie&#39;s Site</description>
     <image>
       <title>Jiang Jun Jie&#39;s Site</title>
-      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
-      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+      <url>https://blog.smdipal.de/papermod-cover.png</url>
+      <link>https://blog.smdipal.de/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Mar 2021 14:57:02 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/pgadmin4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Mar 2021 14:57:02 +0800</lastBuildDate>
+    <atom:link href="https://blog.smdipal.de/tags/pgadmin4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker PgAdmin4</title>
-      <link>https://www.jiangjunjie.cn/posts/docker-pgadmin4/</link>
+      <link>https://blog.smdipal.de/posts/docker-pgadmin4/</link>
       <pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/posts/docker-pgadmin4/</guid>
-      <description>start pgadmin4 5.1 in docker docker-compose.yml
-version: &amp;#39;3.1&amp;#39; services: pgadmin4: image: dpage/pgadmin4:5.1 ports: - 8081:80 restart: always environment: PGADMIN_DEFAULT_EMAIL: {email} PGADMIN_DEFAULT_PASSWORD: {password} </description>
+      <guid>https://blog.smdipal.de/posts/docker-pgadmin4/</guid>
+      <description>&lt;h1 id=&#34;start-pgadmin4-51-in-docker&#34;&gt;start pgadmin4 5.1 in docker&lt;/h1&gt;
+&lt;p&gt;docker-compose.yml&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;version: &amp;#39;3.1&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;services:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  pgadmin4:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    image: dpage/pgadmin4:5.1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ports:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      - 8081:80
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    restart: always
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    environment:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      PGADMIN_DEFAULT_EMAIL: {email}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      PGADMIN_DEFAULT_PASSWORD: {password}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>Docker PostgreSQL</title>
-      <link>https://www.jiangjunjie.cn/posts/docker-postgresql/</link>
+      <link>https://blog.smdipal.de/posts/docker-postgresql/</link>
       <pubDate>Wed, 24 Mar 2021 14:57:02 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/posts/docker-postgresql/</guid>
-      <description>start postgresql 13 and pgadmin4 5.1 in docker,use ~/postgresql/data to persist data docker-compose.yml
-version: &amp;#39;3.1&amp;#39; services: postgresql: image: postgres:13 volumes: - ~/postgresql/data:/var/lib/postgresql/data ports: - 5432:5432 restart: always environment: POSTGRES_PASSWORD: {password} pgadmin4: image: dpage/pgadmin4:5.1 ports: - 80:80 restart: always environment: PGADMIN_DEFAULT_EMAIL: {email} PGADMIN_DEFAULT_PASSWORD: {password} </description>
+      <guid>https://blog.smdipal.de/posts/docker-postgresql/</guid>
+      <description>&lt;h1 id=&#34;start-postgresql-13-and-pgadmin4-51-in-dockeruse-postgresqldata-to-persist-data&#34;&gt;start postgresql 13 and pgadmin4 5.1 in docker,use ~/postgresql/data to persist data&lt;/h1&gt;
+&lt;p&gt;docker-compose.yml&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;version: &amp;#39;3.1&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;services:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  postgresql:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    image: postgres:13
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    volumes:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      - ~/postgresql/data:/var/lib/postgresql/data
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ports:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      - 5432:5432
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    restart: always
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    environment:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      POSTGRES_PASSWORD: {password}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  pgadmin4:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    image: dpage/pgadmin4:5.1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ports:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      - 80:80
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    restart: always
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    environment:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      PGADMIN_DEFAULT_EMAIL: {email}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      PGADMIN_DEFAULT_PASSWORD: {password}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
   </channel>
 </rss>

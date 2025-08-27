@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>cas on Jiang Jun Jie&#39;s Site</title>
-    <link>https://www.jiangjunjie.cn/tags/cas/</link>
-    <description>Recent content in cas on Jiang Jun Jie&#39;s Site</description>
+    <title>Cas on Jiang Jun Jie&#39;s Site</title>
+    <link>https://blog.smdipal.de/tags/cas/</link>
+    <description>Recent content in Cas on Jiang Jun Jie&#39;s Site</description>
     <image>
       <title>Jiang Jun Jie&#39;s Site</title>
-      <url>https://www.jiangjunjie.cn/papermod-cover.png</url>
-      <link>https://www.jiangjunjie.cn/papermod-cover.png</link>
+      <url>https://blog.smdipal.de/papermod-cover.png</url>
+      <link>https://blog.smdipal.de/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Mar 2021 13:55:38 +0800</lastBuildDate><atom:link href="https://www.jiangjunjie.cn/tags/cas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Mar 2021 13:55:38 +0800</lastBuildDate>
+    <atom:link href="https://blog.smdipal.de/tags/cas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cas</title>
-      <link>https://www.jiangjunjie.cn/posts/cas/</link>
+      <link>https://blog.smdipal.de/posts/cas/</link>
       <pubDate>Thu, 25 Mar 2021 13:55:38 +0800</pubDate>
-      
-      <guid>https://www.jiangjunjie.cn/posts/cas/</guid>
-      <description>install docker run --rm -p 8080:8080 apereo/cas-initializr:6.3.0 curl http://localhost:8080/starter.tgz -o cas.tgz tar -zxvf cas.tgz chmod +x docker-build.sh chmod +x docker-run.sh ./docker-build.sh </description>
+      <guid>https://blog.smdipal.de/posts/cas/</guid>
+      <description>&lt;h1 id=&#34;install&#34;&gt;install&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run --rm -p 8080:8080 apereo/cas-initializr:6.3.0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl http://localhost:8080/starter.tgz -o cas.tgz
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tar -zxvf cas.tgz
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chmod +x docker-build.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chmod +x docker-run.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./docker-build.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
   </channel>
 </rss>
