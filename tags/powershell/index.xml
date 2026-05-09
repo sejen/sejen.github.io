@@ -32,15 +32,5 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Install-Module ZLocation -Scope CurrentUser&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Import-Module ZLocation&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Add-Content -Value &lt;span class=&#34;s2&#34;&gt;&amp;#34;`r`n`r`nImport-Module ZLocation`r`n&amp;#34;&lt;/span&gt; -Encoding utf8 -Path &lt;span class=&#34;nv&#34;&gt;$PROFILE&lt;/span&gt;.CurrentUserAllHosts
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    <item>
-      <title>Vscode</title>
-      <link>https://blog.smdipal.de/posts/vscode/</link>
-      <pubDate>Wed, 24 Mar 2021 14:54:33 +0800</pubDate>
-      <guid>https://blog.smdipal.de/posts/vscode/</guid>
-      <description>&lt;h1 id=&#34;open-powershell-core-in-terminal&#34;&gt;Open Powershell core in Terminal&lt;/h1&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# settings.json&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;terminal.integrated.shell.windows&amp;#34;&lt;/span&gt;: &lt;span class=&#34;s2&#34;&gt;&amp;#34;{path to pwsh.exe}&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
   </channel>
 </rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Network on Jiang Jun Jie&#39;s Site</title>
+    <link>https://blog.smdipal.de/tags/network/</link>
+    <description>Recent content in Network on Jiang Jun Jie&#39;s Site</description>
+    <image>
+      <title>Jiang Jun Jie&#39;s Site</title>
+      <url>https://blog.smdipal.de/papermod-cover.png</url>
+      <link>https://blog.smdipal.de/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.161.1</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 27 Mar 2023 14:05:41 +0800</lastBuildDate>
+    <atom:link href="https://blog.smdipal.de/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Routeros</title>
+      <link>https://blog.smdipal.de/posts/routeros/</link>
+      <pubDate>Mon, 27 Mar 2023 14:05:41 +0800</pubDate>
+      <guid>https://blog.smdipal.de/posts/routeros/</guid>
+      <description>&lt;h1 id=&#34;routeros-折腾手记&#34;&gt;RouterOS 折腾手记&lt;/h1&gt;
+&lt;p&gt;参考项目：&lt;a href=&#34;https://gitee.com/callmer/routeros_toss_notes&#34;&gt;RouterOS_Toss_Notes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这是一个 RouterOS 安装、初始化和家庭网络配置笔记。原项目内容比较完整，适合作为 RouterOS 7.x 的实践参考，尤其是把 RouterOS 跑在 Proxmox VE 虚拟机里的场景。&lt;/p&gt;
+&lt;h2 id=&#34;环境假设&#34;&gt;环境假设&lt;/h2&gt;
+&lt;p&gt;原项目当前 README 中的演示环境：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;RouterOS：&lt;code&gt;7.21.4 LongTerm&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;虚拟化：Proxmox VE&lt;/li&gt;
+&lt;li&gt;CPU：&lt;code&gt;host&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;内存：&lt;code&gt;2GB&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;网卡：&lt;code&gt;VirtIO&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;SCSI 控制器：&lt;code&gt;VirtIO SCSI Single&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;外网：光猫桥接，RouterOS 通过 &lt;code&gt;PPPoE&lt;/code&gt; 拨号&lt;/li&gt;
+&lt;li&gt;内网 IPv4：&lt;code&gt;172.16.1.1/24&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;内网 DNS：&lt;code&gt;172.16.1.2&lt;/code&gt;、&lt;code&gt;172.16.1.3&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;IPv6：&lt;code&gt;SLAAC&lt;/code&gt;，GUA 使用 &lt;code&gt;Prefix Delegation&lt;/code&gt;，ULA 示例为 &lt;code&gt;fdac::/64&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;文档结构&#34;&gt;文档结构&lt;/h2&gt;
+&lt;p&gt;项目按章节整理 RouterOS 的常见配置流程：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;PVE 下安装 RouterOS&lt;/li&gt;
+&lt;li&gt;正版系统激活&lt;/li&gt;
+&lt;li&gt;设置网络接口&lt;/li&gt;
+&lt;li&gt;设置 DNS&lt;/li&gt;
+&lt;li&gt;设置 DHCPv4&lt;/li&gt;
+&lt;li&gt;设置防火墙&lt;/li&gt;
+&lt;li&gt;设置流量整形&lt;/li&gt;
+&lt;li&gt;设置定时任务&lt;/li&gt;
+&lt;li&gt;设置 IPv6&lt;/li&gt;
+&lt;li&gt;设置系统参数&lt;/li&gt;
+&lt;li&gt;命令行配置脚本&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;克隆项目&#34;&gt;克隆项目&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://gitee.com/callmer/routeros_toss_notes.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;也可以直接在线查看：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;https://gitee.com/callmer/routeros_toss_notes
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;推荐阅读顺序&#34;&gt;推荐阅读顺序&lt;/h2&gt;
+&lt;p&gt;如果是第一次用 RouterOS，建议按原项目顺序阅读。不要先复制一键脚本，先理解接口命名、WAN/LAN 方向、DNS 和防火墙规则，再把命令行脚本里的参数改成自己的网络环境。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

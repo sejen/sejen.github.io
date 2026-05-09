@@ -53,18 +53,5 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop reset *
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    <item>
-      <title>Win10</title>
-      <link>https://blog.smdipal.de/posts/win10-login-error/</link>
-      <pubDate>Wed, 24 Mar 2021 14:47:25 +0800</pubDate>
-      <guid>https://blog.smdipal.de/posts/win10-login-error/</guid>
-      <description>&lt;h1 id=&#34;office-登录-0x80190001错误&#34;&gt;office 登录 0x80190001错误&lt;/h1&gt;
-&lt;p&gt;管理员运行powershell&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;netsh int ip reset
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;windows-store打不开&#34;&gt;windows store打不开&lt;/h1&gt;
-&lt;p&gt;管理员运行powershell&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;netsh winsock reset
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
   </channel>
 </rss>
