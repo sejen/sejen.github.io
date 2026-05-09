@@ -3,30 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.smdipal.de/categories/</loc>
-    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
+    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/categories/dev/</loc>
-    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
+    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/ghostty/</loc>
+    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/</loc>
-    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
+    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/tags/macos/</loc>
-    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
+    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/terminal/</loc>
+    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/posts/</loc>
-    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
+    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
   </url><url>
-    <loc>https://blog.smdipal.de/posts/powerlevel10k/</loc>
-    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
+    <loc>https://blog.smdipal.de/tags/starship/</loc>
+    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/tags/</loc>
-    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
+    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/tags/terminal/</loc>
-    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
+    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/tags/zsh/</loc>
+    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/categories/ios/</loc>
+    <lastmod>2026-05-09T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/ios/</loc>
+    <lastmod>2026-05-09T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/ios/</loc>
+    <lastmod>2026-05-09T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/ipad/</loc>
+    <lastmod>2026-05-09T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/iphone/</loc>
+    <lastmod>2026-05-09T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</loc>
+    <lastmod>2026-05-09T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/categories/macos/</loc>
+    <lastmod>2026-05-09T16:00:43+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/macos/</loc>
+    <lastmod>2026-05-09T16:00:43+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/powerlevel10k/</loc>
     <lastmod>2026-05-09T14:50:18+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/posts/mediamtx/</loc>

@@ -11,13 +11,27 @@
     </image>
     <generator>Hugo -- 0.161.1</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 May 2026 14:50:18 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 19:34:21 +0800</lastBuildDate>
     <atom:link href="https://blog.smdipal.de/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dev</title>
       <link>https://blog.smdipal.de/categories/dev/</link>
-      <pubDate>Sat, 09 May 2026 14:50:18 +0800</pubDate>
+      <pubDate>Sat, 09 May 2026 19:34:21 +0800</pubDate>
       <guid>https://blog.smdipal.de/categories/dev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IOS</title>
+      <link>https://blog.smdipal.de/categories/ios/</link>
+      <pubDate>Sat, 09 May 2026 16:30:00 +0800</pubDate>
+      <guid>https://blog.smdipal.de/categories/ios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MacOS</title>
+      <link>https://blog.smdipal.de/categories/macos/</link>
+      <pubDate>Sat, 09 May 2026 16:00:43 +0800</pubDate>
+      <guid>https://blog.smdipal.de/categories/macos/</guid>
       <description></description>
     </item>
     <item>
@@ -28,7 +42,7 @@
       <description></description>
     </item>
     <item>
-      <title>Devops</title>
+      <title>DevOps</title>
       <link>https://blog.smdipal.de/categories/devops/</link>
       <pubDate>Thu, 08 Sep 2022 11:02:46 +0800</pubDate>
       <guid>https://blog.smdipal.de/categories/devops/</guid>
