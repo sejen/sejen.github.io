@@ -9,7 +9,7 @@
       <url>https://blog.smdipal.de/papermod-cover.png</url>
       <link>https://blog.smdipal.de/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo -- 0.161.1</generator>
     <language>en</language>
     <lastBuildDate>Tue, 30 Mar 2021 14:03:01 +0800</lastBuildDate>
     <atom:link href="https://blog.smdipal.de/tags/jar/index.xml" rel="self" type="application/rss+xml" />
@@ -33,14 +33,14 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;运行
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run -d &lt;span class=&#34;se&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt; --name &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;name&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; --restart always &lt;span class=&#34;se&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt; -p &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;port&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;:&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;port&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt; -e &lt;span class=&#34;s2&#34;&gt;&amp;#34;TZ=Asia/Shanghai&amp;#34;&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt; -e &lt;span class=&#34;nv&#34;&gt;DB_HOST&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;172.17.0.1 &lt;span class=&#34;se&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt; -e &lt;span class=&#34;nv&#34;&gt;DB_PWD&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;mysql_pwd &lt;span class=&#34;se&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt; -e &lt;span class=&#34;nv&#34;&gt;REDIS_HOST&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;172.17.0.1 &lt;span class=&#34;se&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt; -v /data/userData:&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;镜像内路径&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;image&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;:&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;tag&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; --name &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;name&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; --restart always &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; -p &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;port&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;:&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;port&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; -e &lt;span class=&#34;s2&#34;&gt;&amp;#34;TZ=Asia/Shanghai&amp;#34;&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; -e &lt;span class=&#34;nv&#34;&gt;DB_HOST&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;172.17.0.1 &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; -e &lt;span class=&#34;nv&#34;&gt;DB_PWD&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;mysql_pwd &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; -e &lt;span class=&#34;nv&#34;&gt;REDIS_HOST&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;172.17.0.1 &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; -v /data/userData:&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;镜像内路径&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;image&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;:&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;tag&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;docker-compose.yml
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# coming soon

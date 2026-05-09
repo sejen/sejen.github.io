@@ -2,11 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.smdipal.de/categories/</loc>
+    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/categories/dev/</loc>
+    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
+  </url><url>
     <loc>https://blog.smdipal.de/</loc>
-    <lastmod>2023-09-21T08:52:54+08:00</lastmod>
+    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/macos/</loc>
+    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/posts/</loc>
-    <lastmod>2023-09-21T08:52:54+08:00</lastmod>
+    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/powerlevel10k/</loc>
+    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/</loc>
+    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/terminal/</loc>
+    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/zsh/</loc>
+    <lastmod>2026-05-09T14:50:18+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/posts/ruoyi/</loc>
     <lastmod>2023-07-20T16:05:00+08:00</lastmod>
@@ -17,12 +38,6 @@
     <loc>https://blog.smdipal.de/posts/docker-yapi/</loc>
     <lastmod>2023-05-24T10:03:15+08:00</lastmod>
   </url><url>
-    <loc>https://blog.smdipal.de/categories/</loc>
-    <lastmod>2023-05-11T14:32:27+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.smdipal.de/categories/dev/</loc>
-    <lastmod>2023-05-11T14:32:27+08:00</lastmod>
-  </url><url>
     <loc>https://blog.smdipal.de/tags/docker/</loc>
     <lastmod>2023-05-11T14:32:27+08:00</lastmod>
   </url><url>
@@ -30,9 +45,6 @@
     <lastmod>2023-05-11T14:32:27+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/tags/ffmpeg/</loc>
-    <lastmod>2023-05-11T14:32:27+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.smdipal.de/tags/</loc>
     <lastmod>2023-05-11T14:32:27+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/posts/redisinsight/</loc>

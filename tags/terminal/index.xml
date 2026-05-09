@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Terminal on Jiang Jun Jie&#39;s Site</title>
+    <link>https://blog.smdipal.de/tags/terminal/</link>
+    <description>Recent content in Terminal on Jiang Jun Jie&#39;s Site</description>
+    <image>
+      <title>Jiang Jun Jie&#39;s Site</title>
+      <url>https://blog.smdipal.de/papermod-cover.png</url>
+      <link>https://blog.smdipal.de/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.161.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 09 May 2026 14:50:18 +0800</lastBuildDate>
+    <atom:link href="https://blog.smdipal.de/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Powerlevel10k</title>
+      <link>https://blog.smdipal.de/posts/powerlevel10k/</link>
+      <pubDate>Sat, 09 May 2026 14:50:18 +0800</pubDate>
+      <guid>https://blog.smdipal.de/posts/powerlevel10k/</guid>
+      <description>&lt;h1 id=&#34;macos-安装-powerlevel10k&#34;&gt;macOS 安装 Powerlevel10k&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/romkatv/powerlevel10k&#34;&gt;Powerlevel10k&lt;/a&gt; 是一个 Zsh 主题，特点是速度快、可定制程度高，并且自带交互式配置向导。&lt;/p&gt;
+&lt;h2 id=&#34;准备&#34;&gt;准备&lt;/h2&gt;
+&lt;p&gt;确认当前 shell 是 Zsh：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$SHELL&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果输出不是 &lt;code&gt;/bin/zsh&lt;/code&gt;，可以切换为 Zsh：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chsh -s /bin/zsh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;安装推荐字体&#34;&gt;安装推荐字体&lt;/h2&gt;
+&lt;p&gt;Powerlevel10k 推荐使用 MesloLGS NF 字体，否则图标可能显示为乱码或方块。&lt;/p&gt;
+&lt;p&gt;使用 Homebrew 安装：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install --cask font-meslo-lg-nerd-font
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;安装完成后，在终端应用里把字体切换为 &lt;code&gt;MesloLGS NF&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;常见终端字体设置位置：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Terminal.app：&lt;code&gt;设置&lt;/code&gt; -&amp;gt; &lt;code&gt;描述文件&lt;/code&gt; -&amp;gt; &lt;code&gt;文本&lt;/code&gt; -&amp;gt; &lt;code&gt;字体&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;iTerm2：&lt;code&gt;Settings&lt;/code&gt; -&amp;gt; &lt;code&gt;Profiles&lt;/code&gt; -&amp;gt; &lt;code&gt;Text&lt;/code&gt; -&amp;gt; &lt;code&gt;Font&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;VS Code：设置 &lt;code&gt;terminal.integrated.fontFamily&lt;/code&gt; 为 &lt;code&gt;MesloLGS NF&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;方式一使用-homebrew-安装&#34;&gt;方式一：使用 Homebrew 安装&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install powerlevel10k
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;安装完成后，把主题加载语句写入 &lt;code&gt;~/.zshrc&lt;/code&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.zshrc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;重新加载配置：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

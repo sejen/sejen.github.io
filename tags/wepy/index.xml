@@ -9,7 +9,7 @@
       <url>https://blog.smdipal.de/papermod-cover.png</url>
       <link>https://blog.smdipal.de/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo -- 0.161.1</generator>
     <language>en</language>
     <lastBuildDate>Thu, 25 Mar 2021 10:47:08 +0800</lastBuildDate>
     <atom:link href="https://blog.smdipal.de/tags/wepy/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;error&#34;&gt;error&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Q：regeneratorRuntime.mark undefined&lt;br&gt;
-A: 关掉小程序开发工具ES6转ES5&lt;/p&gt;&lt;/blockquote&gt;</description>
+A: 关掉小程序开发工具ES6转ES5&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
   </channel>
 </rss>
