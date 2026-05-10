@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tools on Jiang Jun Jie&#39;s Site</title>
+    <link>https://blog.smdipal.de/tags/tools/</link>
+    <description>Recent content in Tools on Jiang Jun Jie&#39;s Site</description>
+    <image>
+      <title>Jiang Jun Jie&#39;s Site</title>
+      <url>https://blog.smdipal.de/papermod-cover.png</url>
+      <link>https://blog.smdipal.de/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.161.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 May 2026 15:00:04 +0800</lastBuildDate>
+    <atom:link href="https://blog.smdipal.de/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Awesome Win</title>
+      <link>https://blog.smdipal.de/posts/awesome-win/</link>
+      <pubDate>Sun, 10 May 2026 15:00:04 +0800</pubDate>
+      <guid>https://blog.smdipal.de/posts/awesome-win/</guid>
+      <description>使用 Scoop 管理 Windows 常用工具和软件清单。</description>
+    </item>
+    <item>
+      <title>Awesome macOS：好用的软件清单</title>
+      <link>https://blog.smdipal.de/posts/awesome-macos/</link>
+      <pubDate>Sun, 10 May 2026 14:44:30 +0800</pubDate>
+      <guid>https://blog.smdipal.de/posts/awesome-macos/</guid>
+      <description>整理 macOS 平台上日常开发、效率、窗口管理、截图、写作、影音和系统维护常用的软件。</description>
+    </item>
+    <item>
+      <title>Rime</title>
+      <link>https://blog.smdipal.de/posts/rime/</link>
+      <pubDate>Sun, 10 May 2026 14:36:41 +0800</pubDate>
+      <guid>https://blog.smdipal.de/posts/rime/</guid>
+      <description>介绍 Rime 输入法在 Windows、macOS、Linux 和 iOS 上的安装与使用。</description>
+    </item>
+    <item>
+      <title>Ai Tools</title>
+      <link>https://blog.smdipal.de/posts/ai-tools/</link>
+      <pubDate>Sun, 10 May 2026 14:19:57 +0800</pubDate>
+      <guid>https://blog.smdipal.de/posts/ai-tools/</guid>
+      <description>介绍 Ollama、LM Studio、Cherry Studio、cc-switch 和 CodeIsland 等 AI 编程辅助工具。</description>
+    </item>
+    <item>
+      <title>Uv</title>
+      <link>https://blog.smdipal.de/posts/uv/</link>
+      <pubDate>Sun, 10 May 2026 14:15:21 +0800</pubDate>
+      <guid>https://blog.smdipal.de/posts/uv/</guid>
+      <description>介绍 Python 包管理工具 uv 的安装方式和常用命令。</description>
+    </item>
+    <item>
+      <title>Awesome Tools</title>
+      <link>https://blog.smdipal.de/posts/awesome-tools/</link>
+      <pubDate>Sun, 10 May 2026 14:13:13 +0800</pubDate>
+      <guid>https://blog.smdipal.de/posts/awesome-tools/</guid>
+      <description>介绍 Maccy、MOS 和 Karabiner-Elements 三款 macOS 实用工具。</description>
+    </item>
+    <item>
+      <title>Terminal Enhanced</title>
+      <link>https://blog.smdipal.de/posts/terminal-enhanced/</link>
+      <pubDate>Sun, 10 May 2026 13:34:35 +0800</pubDate>
+      <guid>https://blog.smdipal.de/posts/terminal-enhanced/</guid>
+      <description>介绍 lazygit、lazydocker、yazi、tmux 以及常用终端小工具。</description>
+    </item>
+  </channel>
+</rss>

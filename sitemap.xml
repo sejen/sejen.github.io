@@ -2,8 +2,95 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.smdipal.de/posts/github-repo/2-fail2ban/</loc>
+    <lastmod>2026-05-10T15:09:48+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/</loc>
+    <lastmod>2026-05-10T15:09:48+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/linux/</loc>
+    <lastmod>2026-05-10T15:09:48+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/</loc>
+    <lastmod>2026-05-10T15:09:48+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/security/</loc>
+    <lastmod>2026-05-10T15:09:48+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/</loc>
+    <lastmod>2026-05-10T15:09:48+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/ai/</loc>
+    <lastmod>2026-05-10T15:08:46+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/categories/ai/</loc>
+    <lastmod>2026-05-10T15:08:46+08:00</lastmod>
+  </url><url>
     <loc>https://blog.smdipal.de/categories/</loc>
-    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
+    <lastmod>2026-05-10T15:08:46+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/docker/</loc>
+    <lastmod>2026-05-10T15:08:46+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/llm/</loc>
+    <lastmod>2026-05-10T15:08:46+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/ollama/</loc>
+    <lastmod>2026-05-10T15:08:46+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/open-webui/</loc>
+    <lastmod>2026-05-10T15:08:46+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/github-repo/1-open-webui/</loc>
+    <lastmod>2026-05-10T15:08:46+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/awesome-win/</loc>
+    <lastmod>2026-05-10T15:00:04+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/tools/</loc>
+    <lastmod>2026-05-10T15:00:04+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/windows/</loc>
+    <lastmod>2026-05-10T15:00:04+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/apps/</loc>
+    <lastmod>2026-05-10T14:44:30+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/awesome-macos/</loc>
+    <lastmod>2026-05-10T14:44:30+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/categories/macos/</loc>
+    <lastmod>2026-05-10T14:44:30+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/macos/</loc>
+    <lastmod>2026-05-10T14:44:30+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/input-method/</loc>
+    <lastmod>2026-05-10T14:36:41+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/rime/</loc>
+    <lastmod>2026-05-10T14:36:41+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/ai-tools/</loc>
+    <lastmod>2026-05-10T14:19:57+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/colima/</loc>
+    <lastmod>2026-05-10T14:15:38+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/python/</loc>
+    <lastmod>2026-05-10T14:15:21+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/uv/</loc>
+    <lastmod>2026-05-10T14:15:21+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/awesome-tools/</loc>
+    <lastmod>2026-05-10T14:13:13+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/terminal/</loc>
+    <lastmod>2026-05-10T13:34:35+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/posts/terminal-enhanced/</loc>
+    <lastmod>2026-05-10T13:34:35+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/categories/dev/</loc>
     <lastmod>2026-05-09T19:34:21+08:00</lastmod>
@@ -11,25 +98,10 @@
     <loc>https://blog.smdipal.de/tags/ghostty/</loc>
     <lastmod>2026-05-09T19:34:21+08:00</lastmod>
   </url><url>
-    <loc>https://blog.smdipal.de/</loc>
-    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.smdipal.de/tags/macos/</loc>
-    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
-  </url><url>
     <loc>https://blog.smdipal.de/posts/terminal/</loc>
     <lastmod>2026-05-09T19:34:21+08:00</lastmod>
   </url><url>
-    <loc>https://blog.smdipal.de/posts/</loc>
-    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
-  </url><url>
     <loc>https://blog.smdipal.de/tags/starship/</loc>
-    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.smdipal.de/tags/</loc>
-    <lastmod>2026-05-09T19:34:21+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.smdipal.de/tags/terminal/</loc>
     <lastmod>2026-05-09T19:34:21+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/tags/zsh/</loc>
@@ -53,9 +125,6 @@
     <loc>https://blog.smdipal.de/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2026-05-09T16:30:00+08:00</lastmod>
   </url><url>
-    <loc>https://blog.smdipal.de/categories/macos/</loc>
-    <lastmod>2026-05-09T16:00:43+08:00</lastmod>
-  </url><url>
     <loc>https://blog.smdipal.de/posts/macos/</loc>
     <lastmod>2026-05-09T16:00:43+08:00</lastmod>
   </url><url>
@@ -66,6 +135,9 @@
     <lastmod>2023-09-13T13:46:55+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/posts/wsl/</loc>
+    <lastmod>2023-08-30T14:20:56+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.smdipal.de/tags/wsl/</loc>
     <lastmod>2023-08-30T14:20:56+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/posts/nacos/</loc>
@@ -114,9 +186,6 @@
     <lastmod>2023-02-03T11:00:55+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/categories/devops/</loc>
-    <lastmod>2022-09-08T11:02:46+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.smdipal.de/tags/docker/</loc>
     <lastmod>2022-09-08T11:02:46+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/posts/docker-elk/</loc>
@@ -249,9 +318,6 @@
     <lastmod>2021-03-25T09:50:27+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/tags/conda/</loc>
-    <lastmod>2021-03-25T09:50:27+08:00</lastmod>
-  </url><url>
-    <loc>https://blog.smdipal.de/tags/python/</loc>
     <lastmod>2021-03-25T09:50:27+08:00</lastmod>
   </url><url>
     <loc>https://blog.smdipal.de/posts/windows/</loc>

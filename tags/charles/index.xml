@@ -18,7 +18,15 @@
       <link>https://blog.smdipal.de/posts/charles/</link>
       <pubDate>Fri, 02 Apr 2021 10:02:00 +0800</pubDate>
       <guid>https://blog.smdipal.de/posts/charles/</guid>
-      <description>Desc Text.</description>
+      <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Charles监听localhost请求
+访问http://localhost.charlesproxy.com:port&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;浏览器代理，监听端口8888&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
   </channel>
 </rss>

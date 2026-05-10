@@ -11,14 +11,28 @@
     </image>
     <generator>Hugo -- 0.161.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Mar 2021 09:50:27 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 14:15:21 +0800</lastBuildDate>
     <atom:link href="https://blog.smdipal.de/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uv</title>
+      <link>https://blog.smdipal.de/posts/uv/</link>
+      <pubDate>Sun, 10 May 2026 14:15:21 +0800</pubDate>
+      <guid>https://blog.smdipal.de/posts/uv/</guid>
+      <description>介绍 Python 包管理工具 uv 的安装方式和常用命令。</description>
+    </item>
     <item>
       <title>Conda</title>
       <link>https://blog.smdipal.de/posts/conda/</link>
       <pubDate>Thu, 25 Mar 2021 09:50:27 +0800</pubDate>
       <guid>https://blog.smdipal.de/posts/conda/</guid>
-      <description>Desc Text.</description>
+      <description>&lt;h1 id=&#34;cmd&#34;&gt;cmd&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda info --envs
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda info -e
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda create -n env-name &lt;span class=&#34;nv&#34;&gt;python&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;X.X
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;activate env-name
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;deactivate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda remove -n env-name --all
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>

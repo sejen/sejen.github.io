@@ -18,7 +18,27 @@
       <link>https://blog.smdipal.de/posts/terminal/</link>
       <pubDate>Sat, 09 May 2026 19:34:21 +0800</pubDate>
       <guid>https://blog.smdipal.de/posts/terminal/</guid>
-      <description>Desc Text.</description>
+      <description>&lt;p&gt;这是一套偏日常开发使用的 macOS 终端配置：使用 &lt;a href=&#34;https://ghostty.org/&#34;&gt;Ghostty&lt;/a&gt; 作为终端模拟器，使用 &lt;a href=&#34;https://ohmyz.sh/&#34;&gt;Oh My Zsh&lt;/a&gt; 管理 Zsh 配置和插件，最后用 &lt;a href=&#34;https://starship.rs/&#34;&gt;Starship&lt;/a&gt; 接管命令行提示符。&lt;/p&gt;
+&lt;h2 id=&#34;目标&#34;&gt;目标&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ghostty：终端应用，启动快，默认配置已经足够可用。&lt;/li&gt;
+&lt;li&gt;Oh My Zsh：管理 Zsh 配置、插件和常用别名。&lt;/li&gt;
+&lt;li&gt;Oh My Zsh plugins：补全、建议、高亮、Git、sudo 等效率插件。&lt;/li&gt;
+&lt;li&gt;Starship：跨 shell 的命令行提示符，替代 Oh My Zsh 主题。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;准备&#34;&gt;准备&lt;/h2&gt;
+&lt;p&gt;确认当前 shell 是 Zsh：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$SHELL&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;zsh --version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果当前不是 Zsh，可以切换为 macOS 自带的 Zsh：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chsh -s /bin/zsh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;安装 Homebrew 后，后续工具都可以统一用 &lt;code&gt;brew&lt;/code&gt; 管理：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/bin/bash -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew update
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;安装-ghostty&#34;&gt;安装 Ghostty&lt;/h2&gt;
+&lt;p&gt;Ghostty 的 macOS 版本可以直接下载安装，也可以通过 Homebrew Cask 安装：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install --cask ghostty
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;启动 Ghostty：&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

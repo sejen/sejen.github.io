@@ -11,8 +11,106 @@
     </image>
     <generator>Hugo -- 0.161.1</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 May 2026 19:34:21 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 15:09:48 +0800</lastBuildDate>
     <atom:link href="https://blog.smdipal.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>https://blog.smdipal.de/tags/linux/</link>
+      <pubDate>Sun, 10 May 2026 15:09:48 +0800</pubDate>
+      <guid>https://blog.smdipal.de/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://blog.smdipal.de/tags/security/</link>
+      <pubDate>Sun, 10 May 2026 15:09:48 +0800</pubDate>
+      <guid>https://blog.smdipal.de/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>https://blog.smdipal.de/tags/ai/</link>
+      <pubDate>Sun, 10 May 2026 15:08:46 +0800</pubDate>
+      <guid>https://blog.smdipal.de/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://blog.smdipal.de/tags/docker/</link>
+      <pubDate>Sun, 10 May 2026 15:08:46 +0800</pubDate>
+      <guid>https://blog.smdipal.de/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>https://blog.smdipal.de/tags/llm/</link>
+      <pubDate>Sun, 10 May 2026 15:08:46 +0800</pubDate>
+      <guid>https://blog.smdipal.de/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ollama</title>
+      <link>https://blog.smdipal.de/tags/ollama/</link>
+      <pubDate>Sun, 10 May 2026 15:08:46 +0800</pubDate>
+      <guid>https://blog.smdipal.de/tags/ollama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open WebUI</title>
+      <link>https://blog.smdipal.de/tags/open-webui/</link>
+      <pubDate>Sun, 10 May 2026 15:08:46 +0800</pubDate>
+      <guid>https://blog.smdipal.de/tags/open-webui/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://blog.smdipal.de/tags/tools/</link>
+      <pubDate>Sun, 10 May 2026 15:00:04 +0800</pubDate>
+      <guid>https://blog.smdipal.de/tags/tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>https://blog.smdipal.de/tags/windows/</link>
+      <pubDate>Sun, 10 May 2026 15:00:04 +0800</pubDate>
+      <guid>https://blog.smdipal.de/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apps</title>
+      <link>https://blog.smdipal.de/tags/apps/</link>
+      <pubDate>Sun, 10 May 2026 14:44:30 +0800</pubDate>
+      <guid>https://blog.smdipal.de/tags/apps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MacOS</title>
+      <link>https://blog.smdipal.de/tags/macos/</link>
+      <pubDate>Sun, 10 May 2026 14:44:30 +0800</pubDate>
+      <guid>https://blog.smdipal.de/tags/macos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Input-Method</title>
+      <link>https://blog.smdipal.de/tags/input-method/</link>
+      <pubDate>Sun, 10 May 2026 14:36:41 +0800</pubDate>
+      <guid>https://blog.smdipal.de/tags/input-method/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://blog.smdipal.de/tags/python/</link>
+      <pubDate>Sun, 10 May 2026 14:15:21 +0800</pubDate>
+      <guid>https://blog.smdipal.de/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terminal</title>
+      <link>https://blog.smdipal.de/tags/terminal/</link>
+      <pubDate>Sun, 10 May 2026 13:34:35 +0800</pubDate>
+      <guid>https://blog.smdipal.de/tags/terminal/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ghostty</title>
       <link>https://blog.smdipal.de/tags/ghostty/</link>
@@ -21,24 +119,10 @@
       <description></description>
     </item>
     <item>
-      <title>Macos</title>
-      <link>https://blog.smdipal.de/tags/macos/</link>
-      <pubDate>Sat, 09 May 2026 19:34:21 +0800</pubDate>
-      <guid>https://blog.smdipal.de/tags/macos/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Starship</title>
       <link>https://blog.smdipal.de/tags/starship/</link>
       <pubDate>Sat, 09 May 2026 19:34:21 +0800</pubDate>
       <guid>https://blog.smdipal.de/tags/starship/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Terminal</title>
-      <link>https://blog.smdipal.de/tags/terminal/</link>
-      <pubDate>Sat, 09 May 2026 19:34:21 +0800</pubDate>
-      <guid>https://blog.smdipal.de/tags/terminal/</guid>
       <description></description>
     </item>
     <item>
@@ -77,6 +161,13 @@
       <description></description>
     </item>
     <item>
+      <title>WSL</title>
+      <link>https://blog.smdipal.de/tags/wsl/</link>
+      <pubDate>Wed, 30 Aug 2023 14:20:56 +0800</pubDate>
+      <guid>https://blog.smdipal.de/tags/wsl/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Network</title>
       <link>https://blog.smdipal.de/tags/network/</link>
       <pubDate>Mon, 27 Mar 2023 14:05:41 +0800</pubDate>
@@ -95,13 +186,6 @@
       <link>https://blog.smdipal.de/tags/routeros/</link>
       <pubDate>Mon, 27 Mar 2023 14:05:41 +0800</pubDate>
       <guid>https://blog.smdipal.de/tags/routeros/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>https://blog.smdipal.de/tags/docker/</link>
-      <pubDate>Thu, 08 Sep 2022 11:02:46 +0800</pubDate>
-      <guid>https://blog.smdipal.de/tags/docker/</guid>
       <description></description>
     </item>
     <item>
@@ -263,13 +347,6 @@
       <link>https://blog.smdipal.de/tags/conda/</link>
       <pubDate>Thu, 25 Mar 2021 09:50:27 +0800</pubDate>
       <guid>https://blog.smdipal.de/tags/conda/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>https://blog.smdipal.de/tags/python/</link>
-      <pubDate>Thu, 25 Mar 2021 09:50:27 +0800</pubDate>
-      <guid>https://blog.smdipal.de/tags/python/</guid>
       <description></description>
     </item>
     <item>

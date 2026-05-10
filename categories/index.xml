@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo -- 0.161.1</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 May 2026 19:34:21 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 15:08:46 +0800</lastBuildDate>
     <atom:link href="https://blog.smdipal.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://blog.smdipal.de/categories/ai/</link>
+      <pubDate>Sun, 10 May 2026 15:08:46 +0800</pubDate>
+      <guid>https://blog.smdipal.de/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MacOS</title>
+      <link>https://blog.smdipal.de/categories/macos/</link>
+      <pubDate>Sun, 10 May 2026 14:44:30 +0800</pubDate>
+      <guid>https://blog.smdipal.de/categories/macos/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Dev</title>
       <link>https://blog.smdipal.de/categories/dev/</link>
@@ -25,13 +39,6 @@
       <link>https://blog.smdipal.de/categories/ios/</link>
       <pubDate>Sat, 09 May 2026 16:30:00 +0800</pubDate>
       <guid>https://blog.smdipal.de/categories/ios/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MacOS</title>
-      <link>https://blog.smdipal.de/categories/macos/</link>
-      <pubDate>Sat, 09 May 2026 16:00:43 +0800</pubDate>
-      <guid>https://blog.smdipal.de/categories/macos/</guid>
       <description></description>
     </item>
     <item>

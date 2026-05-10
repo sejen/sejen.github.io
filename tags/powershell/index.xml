@@ -18,7 +18,19 @@
       <link>https://blog.smdipal.de/posts/powershell/</link>
       <pubDate>Thu, 25 Mar 2021 14:08:02 +0800</pubDate>
       <guid>https://blog.smdipal.de/posts/powershell/</guid>
-      <description>Desc Text.</description>
+      <description>&lt;h1 id=&#34;oh-my-posh&#34;&gt;oh-my-posh&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# https://ohmyposh.dev/docs/installation&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Get-PoshThemes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;code &lt;span class=&#34;nv&#34;&gt;$profile&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Set-PoshPrompt -Theme paradox
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;. &lt;span class=&#34;nv&#34;&gt;$profile&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/powerline/fonts.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; fonts
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./install.ps1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Install-Module ZLocation -Scope CurrentUser&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Import-Module ZLocation&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Add-Content -Value &lt;span class=&#34;s2&#34;&gt;&amp;#34;`r`n`r`nImport-Module ZLocation`r`n&amp;#34;&lt;/span&gt; -Encoding utf8 -Path &lt;span class=&#34;nv&#34;&gt;$PROFILE&lt;/span&gt;.CurrentUserAllHosts
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>

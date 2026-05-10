@@ -18,14 +18,42 @@
       <link>https://blog.smdipal.de/posts/ios/</link>
       <pubDate>Sat, 09 May 2026 16:30:00 +0800</pubDate>
       <guid>https://blog.smdipal.de/posts/ios/</guid>
-      <description>Desc Text.</description>
+      <description>&lt;p&gt;这是一份偏日常使用、效率、文件管理和轻量开发的 iPhone / iPad 软件推荐清单。iOS 上优先选择系统自带能力，其次再补充真正能改善工作流的第三方应用。&lt;/p&gt;
+&lt;h1 id=&#34;iphone&#34;&gt;iPhone&lt;/h1&gt;
+&lt;h1 id=&#34;ipad&#34;&gt;iPad&lt;/h1&gt;</description>
     </item>
     <item>
       <title>macOS 软件推荐</title>
       <link>https://blog.smdipal.de/posts/macos/</link>
       <pubDate>Sat, 09 May 2026 16:00:43 +0800</pubDate>
       <guid>https://blog.smdipal.de/posts/macos/</guid>
-      <description>Desc Text.</description>
+      <description>&lt;p&gt;这是一份偏日常开发、办公和系统效率的 Mac 装机清单。优先推荐长期维护、安装方便、能补齐 macOS 使用短板的软件。&lt;/p&gt;
+&lt;h2 id=&#34;安装方式&#34;&gt;安装方式&lt;/h2&gt;
+&lt;p&gt;推荐先安装 &lt;a href=&#34;https://brew.sh/&#34;&gt;Homebrew&lt;/a&gt;，后续大部分软件都可以用命令安装、升级和卸载。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/bin/bash -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew update
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;必装效率工具&#34;&gt;必装效率工具&lt;/h2&gt;
+&lt;h2 id=&#34;开发工具&#34;&gt;开发工具&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/download&#34;&gt;Visual Studio Code&lt;/a&gt;：轻量代码编辑器，扩展生态完整，适合前端、脚本和轻量项目。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jetbrains.com/toolbox-app/&#34;&gt;JetBrains Toolbox&lt;/a&gt;：统一管理 IntelliJ IDEA、WebStorm、PyCharm、DataGrip 等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;文件与媒体&#34;&gt;文件与媒体&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://iina.io/&#34;&gt;IINA&lt;/a&gt;：现代化视频播放器，基于 mpv，适合播放本地视频和常见媒体格式。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://localsend.org/&#34;&gt;LocalSend&lt;/a&gt;：局域网跨设备传文件，不依赖云端账号。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;笔记与写作&#34;&gt;笔记与写作&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;：Markdown 笔记工具，本地文件优先，适合知识库和长期资料整理。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;沟通与办公&#34;&gt;沟通与办公&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wechat.com/&#34;&gt;WeChat&lt;/a&gt;：微信。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://meeting.tencent.com/&#34;&gt;Tencent Meeting&lt;/a&gt;：腾讯会议。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.feishu.cn/download&#34;&gt;Feishu&lt;/a&gt;：飞书。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/microsoft-365&#34;&gt;Microsoft 365&lt;/a&gt;：Word、Excel、PowerPoint、OneDrive。&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

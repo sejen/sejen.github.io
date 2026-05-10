@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Apps on Jiang Jun Jie&#39;s Site</title>
+    <link>https://blog.smdipal.de/tags/apps/</link>
+    <description>Recent content in Apps on Jiang Jun Jie&#39;s Site</description>
+    <image>
+      <title>Jiang Jun Jie&#39;s Site</title>
+      <url>https://blog.smdipal.de/papermod-cover.png</url>
+      <link>https://blog.smdipal.de/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.161.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 May 2026 14:44:30 +0800</lastBuildDate>
+    <atom:link href="https://blog.smdipal.de/tags/apps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Awesome macOS：好用的软件清单</title>
+      <link>https://blog.smdipal.de/posts/awesome-macos/</link>
+      <pubDate>Sun, 10 May 2026 14:44:30 +0800</pubDate>
+      <guid>https://blog.smdipal.de/posts/awesome-macos/</guid>
+      <description>整理 macOS 平台上日常开发、效率、窗口管理、截图、写作、影音和系统维护常用的软件。</description>
+    </item>
+  </channel>
+</rss>
