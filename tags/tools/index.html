@@ -30,7 +30,7 @@ brew install --cask squirrel 安装后在“系统设置”里的“键盘”输
 macOS 上常见配置位置：
 ~/Library/Rime 这个目录里会放输入方案、用户配置、词库和补丁文件。日常迁移 Rime 配置时，通常也是同步这个目录。
 Linux：IBus / Fcitx Linux 上 Rime 通常通过输入法框架接入，常见选择是 IBus 或 Fcitx/Fcitx5。
-...</p></div><footer class=entry-footer><span title='2026-05-10 14:36:41 +0800 +0800'>May 10, 2026</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;250 words&nbsp;·&nbsp;Jiang Jun Jie</footer><a class=entry-link aria-label="post link to Rime" href=https://blog.smdipal.de/posts/rime/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>Ai Tools</h2></header><div class=entry-content><p>AI 编程工具越来越多之后，新的问题不是“有没有工具可用”，而是如何管理它们。Ollama 和 LM Studio 负责在本地运行大语言模型，Cherry Studio 负责统一使用多个模型服务，cc-switch 和 CodeIsland 则围绕 AI coding workflow 做增强：一个负责统一管理和切换 AI CLI 配置，另一个负责在 macOS 上观察和处理 AI 编程会话状态。
+...</p></div><footer class=entry-footer><span title='2026-05-10 14:36:41 +0800 +0800'>May 10, 2026</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;250 words&nbsp;·&nbsp;Jiang Jun Jie</footer><a class=entry-link aria-label="post link to Rime" href=https://blog.smdipal.de/posts/rime/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>Ai Tools</h2></header><div class=entry-content><p>AI 编程工具越来越多之后，新的问题不是“有没有工具可用”，而是如何管理它们。Ollama 和 LM Studio 负责在本地运行大语言模型，Cherry Studio 负责统一使用多个模型服务，Dify 适合搭建 LLM 应用和工作流，cc-switch 和 CodeIsland 则围绕 AI coding workflow 做增强：一个负责统一管理和切换 AI CLI 配置，另一个负责在 macOS 上观察和处理 AI 编程会话状态。
 Ollama Ollama 是一个本地运行大语言模型的工具。它可以下载、管理和运行模型，并在本机提供 HTTP API，适合做本地聊天、代码辅助、原型验证，以及给其他 AI 工具提供本地模型后端。
 项目地址：https://github.com/ollama/ollama
 官方文档：https://docs.ollama.com/
@@ -43,7 +43,7 @@ ollama pull qwen3 运行模型并进入交互式对话：
 ollama run qwen3 查看本地已有模型：
 ollama list 删除模型：
 ollama rm qwen3 Ollama 默认会在本机监听 11434 端口，可以用 API 调用：
-...</p></div><footer class=entry-footer><span title='2026-05-10 14:19:57 +0800 +0800'>May 10, 2026</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;440 words&nbsp;·&nbsp;Jiang Jun Jie</footer><a class=entry-link aria-label="post link to Ai Tools" href=https://blog.smdipal.de/posts/ai-tools/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>Uv</h2></header><div class=entry-content><p>uv 是 Astral 推出的 Python 包管理工具，目标是把常见 Python 开发工作流收敛到一个更快、更统一的命令行工具里。它可以管理项目依赖、虚拟环境、Python 版本，也可以像 pipx 一样运行或安装 Python 命令行工具。
+...</p></div><footer class=entry-footer><span title='2026-05-10 14:19:57 +0800 +0800'>May 10, 2026</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;558 words&nbsp;·&nbsp;Jiang Jun Jie</footer><a class=entry-link aria-label="post link to Ai Tools" href=https://blog.smdipal.de/posts/ai-tools/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>Uv</h2></header><div class=entry-content><p>uv 是 Astral 推出的 Python 包管理工具，目标是把常见 Python 开发工作流收敛到一个更快、更统一的命令行工具里。它可以管理项目依赖、虚拟环境、Python 版本，也可以像 pipx 一样运行或安装 Python 命令行工具。
 安装 macOS 可以通过 Homebrew 安装：
 brew install uv 也可以使用官方安装脚本：
 curl -LsSf https://astral.sh/uv/install.sh | sh 安装后检查版本：
